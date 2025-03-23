@@ -46,9 +46,15 @@
   รูดี้สัมผัสเวทระดับ S — และถูกสะท้อนภาพตนเองในอนาคตที่กำลัง... ทำลายสมาคมเวท
   
   ## ข้อมูลอ้างอิง
-  - 
-  -
-  -
-  -
-  -
-  -
+  - https://github.com/abckill101/audio-files/blob/1abe059b81047a4e21a695b2a2c64195bc625c9b/characters/ep2/echo-phantom-prototype.md
+  - https://github.com/abckill101/audio-files/blob/1abe059b81047a4e21a695b2a2c64195bc625c9b/characters/ep2/guardian-of-reflection.md
+  - https://github.com/abckill101/audio-files/blob/1abe059b81047a4e21a695b2a2c64195bc625c9b/characters/ep2/maria-luna-alt.md
+  - https://github.com/abckill101/audio-files/blob/1abe059b81047a4e21a695b2a2c64195bc625c9b/magic/ep2/echo-pulse.md
+  - https://github.com/abckill101/audio-files/blob/1abe059b81047a4e21a695b2a2c64195bc625c9b/magic/ep2/feral-reflection.md
+  - https://github.com/abckill101/audio-files/blob/1abe059b81047a4e21a695b2a2c64195bc625c9b/magic/ep2/mirror-seal.md
+  - https://github.com/abckill101/audio-files/blob/1abe059b81047a4e21a695b2a2c64195bc625c9b/worldbuilding/locations/ep2/shadow-grove.md
+  - characters/maria-luna.md
+  - characters/zargos-werth.md
+  - monsters/ep1/echo-phantom.md
+  - magic-system/forbidden-archives.md
+  - magic-system/magic-history.md
