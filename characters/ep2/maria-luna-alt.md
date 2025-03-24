@@ -1,3 +1,6 @@
+related_factions:
+  - arcane-order
+
 # มาเรีย ลูนา (Maria Luna - Forbidden Profile)
 
 ## ชื่อเต็ม:

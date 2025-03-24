@@ -3,6 +3,8 @@ title: Isaac Nocturne (EP2)
 character_id: isaac-nocturne-alt
 related_episodes:
   - ep2-08
+related_factions:
+  - arcane-order
 tags:
   - shadow-grove
   - echo-phantom
@@ -13,6 +15,10 @@ created: 2025-03-24
 modified: 2025-03-24
 author: abckill101
 ---
+
+related_factions:
+  - arcane-order
+
 
 # ไอแซก น็อกเทิร์น (Isaac Nocturne)
 
