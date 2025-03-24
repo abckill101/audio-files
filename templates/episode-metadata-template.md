@@ -1,20 +1,20 @@
 ---
-title: ตอนที่ X: (ชื่อตอน)
+title: "ตอนที่ X: (ชื่อตอน)"
 episode_id: epX-YY
-chapter: บทที่ X: (ชื่อบท)
+chapter: "บทที่ X: (ชื่อบท)"
 page: Xof5
 type: episode
 status: draft
 main_characters:
-  - (klein)
-  - (rudy)
-setting: (ชื่อสถานที่ เช่น shadow-grove)
+  - klein
+  - rudy
+setting: shadow-grove
 related_spells:
-  - (echo-pulse)
-  - (mirror-seal)
-theme: (theme หรือ keyword เช่น memory, betrayal, discovery)
-created: (วันที่ YYYY-MM-DD)
-modified: (วันที่ YYYY-MM-DD)
+  - echo-pulse
+  - mirror-seal
+theme: memory, betrayal, discovery
+created: 2025-03-24
+modified: 2025-03-24
 author: abckill101
 ---
 
