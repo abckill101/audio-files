@@ -1,3 +1,27 @@
+# Farming War - Story Project
+
+## Overview
+This project contains the story, characters, world-building, magic, and items for the **Farming War** novel. It is organized into structured folders for easy navigation and understanding.
+
+## Folder Structure:
+- **/project** - The main folder containing story and world-building content
+  - **/worldbuilding** - Locations, magic, and lore of the world.
+  - **/characters** - Information about characters, NPCs, and monsters.
+  - **/magic** - Magic spells, abilities, and systems.
+  - **/items** - Various items used in the story.
+  - **/story** - The chapters of the story, organized by episodes.
+
+## Steps for Creating New Content
+1. Check the progress of the project in **project-status.md**.
+2. Review the chapter structure in **/dev**.
+3. Check the current episode and previous chapters in **/story**.
+4. Verify the items, magic, and quests in **/items**, **/magic**, and **/quests**.
+5. Review world-building information in **/worldbuilding**.
+6. Plan and create documents for the next episode.
+
+## Contribution
+This is an ongoing solo project by the author. Please feel free to explore, provide suggestions, or use this repository for reference. 
+
 # Farming War – GitHub Worldbuilding Project
 
 > โปรเจกต์นี้เป็นโครงสร้างนิยายแฟนตาซี “Farming War”  
