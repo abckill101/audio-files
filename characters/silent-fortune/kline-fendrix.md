@@ -1,3 +1,12 @@
+---
+character_id: kline-fendrix
+team: silent-fortune
+role: main-protagonist
+is_player: false
+is_world-native: true
+last_updated: 2025-03-25
+---
+
 # ชื่อเต็ม: ไคลน์ เฟนดริกซ์ (Kline Fendrix)
 
 ## อายุ
