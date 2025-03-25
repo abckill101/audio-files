@@ -27,12 +27,11 @@
 
 - **สถานที่:**  
   - Ancient Seal Chamber (ห้องผนึกโบราณ)  
-  - ด้านล่างของ Stone Inscription Plaza
-
+  - ด้านล่างของ Stone Inscription Plaza 
 - **เวทมนตร์/พลังงาน:**  
-  - Echo Pulse, Mirror Seal  
-  - Unknown Reaction (คลื่นพลังลึกลับจากผนึก)  
-  - Fragment Echo (เศษความทรงจำที่ถ่ายทอดจากเงา)
+  - Echo Pulse-ep3, Mirror Seal-ep3  
+  - Unknown Reaction-ep3 (คลื่นพลังลึกลับจากผนึก)  
+  - Fragment Echo-ep3 (เศษความทรงจำที่ถ่ายทอดจากเงา)
 
 - **ธีมหลัก:**  
   - การตื่นของสิ่งที่ถูกลืม  
