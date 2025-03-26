@@ -22,6 +22,11 @@ This project contains the story, characters, world-building, magic, and items fo
 ## Contribution
 This is an ongoing solo project by the author. Please feel free to explore, provide suggestions, or use this repository for reference. 
 
+## 🧠 Context for AI and Human Collaborators
+
+- [context-ai.md](./context-ai.md) — for AI models (English)
+
+
 # Farming War – GitHub Worldbuilding Project
 
 > โปรเจกต์นี้เป็นโครงสร้างนิยายแฟนตาซี “Farming War”  
