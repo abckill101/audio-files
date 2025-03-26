@@ -1,0 +1,39 @@
+episodes:
+  - episode_id: epx-xx
+    title: epx-xx
+    chapter: "[ชื่อบทภาษาไทย]"
+    page: full
+    type: episode
+    status: draft
+    main_characters:
+      - [slug-ตัวละครหลัก]
+    setting: [slug-สถานที่หลัก]
+    related_spells:
+      - [slug-เวทที่เกี่ยวข้อง]
+    theme:
+      - [ธีมเนื้อหา]
+    created: [yyyy-mm-dd]
+    modified: [yyyy-mm-dd]
+    author: [ชื่อผู้เขียนหรือรหัสผู้ดูแล]
+
+ตัวอย่างใช้งาน (เช่นใน ep4)
+episodes:
+  - episode_id: ep4-11
+    title: ep4-11
+    chapter: "บทที่ 4: ความลับใต้ชั้นผนึก"
+    page: full
+    type: episode
+    status: draft
+    main_characters:
+      - klein
+      - new-npc
+    setting: forgotten-channel
+    related_spells:
+      - seal-reversal
+      - pulse-fragment
+    theme:
+      - hidden-truth
+      - deep-memory
+    created: 2025-04-01
+    modified: 2025-04-02
+    author: abckill101
