@@ -1,19 +1,108 @@
 ---
-title: "ตอนที่ 11: เสียงของสิ่งที่ไม่ควรตื่น"
+title: ep3-11
 episode_id: ep3-11
-chapter: "บทที่ 3: เสียงใต้เงาแห่งปฐมบท"
-page: 1of5
+chapter: "บทที่ 3: มรดกแห่งห้วงผนึก"
+page: full
 type: episode
 status: draft
 main_characters:
   - klein
-  - rudy
-  - unknown-entity
-setting: ruins-of-verdanis
+  - maria-luna-alt
+  - silent-fortune
+setting: stone-inscription-plaza
 related_spells:
-  - soul-resonance
-  - silent-bond
-theme: memory-fragment, ancient-war, awakening
+  - echo-pulse
+  - mirror-seal
+theme:
+  - forgotten-legacy
+  - ancient-network
+  - signal-awakening
+created: 2025-03-24
+modified: 2025-03-26
+author: abckill101
+---
+title: ep3-12
+episode_id: ep3-12
+chapter: "บทที่ 3: มรดกแห่งห้วงผนึก"
+page: full
+type: episode
+status: draft
+main_characters:
+  - klein
+  - guardian-of-reflection
+setting: mirror-chamber
+related_spells:
+  - mirror-seal
+  - reflection-feedback
+theme:
+  - memory-echo
+  - inner-test
+  - magical-reflection
+created: 2025-03-24
+modified: 2025-03-26
+author: abckill101
+---
+title: ep3-13
+episode_id: ep3-13
+chapter: "บทที่ 3: มรดกแห่งห้วงผนึก"
+page: full
+type: episode
+status: draft
+main_characters:
+  - klein
+  - elrys-memory
+  - thuren-boundary
+setting: seal-memory-hall
+related_spells:
+  - awakening-echo
+  - echo-pulse
+theme:
+  - identity-search
+  - ancient-resonance
+  - sealed-history
+created: 2025-03-24
+modified: 2025-03-26
+author: abckill101
+---
+title: ep3-14
+episode_id: ep3-14
+chapter: "บทที่ 3: มรดกแห่งห้วงผนึก"
+page: full
+type: episode
+status: draft
+main_characters:
+  - klein
+  - echo-phantom-prototype
+setting: inner-seal-node
+related_spells:
+  - fragment-echo
+  - corrupted-seal-feedback
+theme:
+  - instability
+  - fragment-chaos
+  - experimental-magic
+created: 2025-03-24
+modified: 2025-03-26
+author: abckill101
+---
+title: ep3-15
+episode_id: ep3-15
+chapter: "บทที่ 3: มรดกแห่งห้วงผนึก"
+page: full
+type: episode
+status: draft
+main_characters:
+  - klein
+  - echo-resonance-system
+setting: inner-seal-core
+related_spells:
+  - seal-resonance
+  - fragment-echo
+  - mirror-seal
+theme:
+  - inheritance
+  - core-activation
+  - resonance-transmission
 created: 2025-03-24
 modified: 2025-03-26
 author: abckill101
