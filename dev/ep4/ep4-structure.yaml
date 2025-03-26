@@ -1,0 +1,101 @@
+episodes:
+  - episode_id: ep4-16
+    title: ep4-16
+    chapter: "บทที่ 4: ความลับใต้ชั้นผนึก"
+    page: full
+    type: episode
+    status: draft
+    main_characters:
+      - klein
+      - maria-luna-alt
+      - silent-fortune
+    setting: hidden-pathway
+    related_spells:
+      - fragment-echo
+      - seal-resonance
+    theme:
+      - anomaly
+      - unrecorded-route
+    created: 2025-03-26
+    modified: 2025-03-26
+    author: abckill101
+
+  - episode_id: ep4-17
+    title: ep4-17
+    chapter: "บทที่ 4: ความลับใต้ชั้นผนึก"
+    page: full
+    type: episode
+    status: draft
+    main_characters:
+      - klein
+      - echo-phantom-prototype
+    setting: echo-rift-zone
+    related_spells:
+      - fragment-echo
+    theme:
+      - shadow-activation
+      - incomplete-echo
+    created: 2025-03-26
+    modified: 2025-03-26
+    author: abckill101
+
+  - episode_id: ep4-18
+    title: ep4-18
+    chapter: "บทที่ 4: ความลับใต้ชั้นผนึก"
+    page: full
+    type: episode
+    status: draft
+    main_characters:
+      - klein
+      - unknown-entity
+    setting: seal-disruption-zone
+    related_spells:
+      - memory-disruption-field
+      - corrupted-echo
+    theme:
+      - outlier
+      - resistance
+    created: 2025-03-26
+    modified: 2025-03-26
+    author: abckill101
+
+  - episode_id: ep4-19
+    title: ep4-19
+    chapter: "บทที่ 4: ความลับใต้ชั้นผนึก"
+    page: full
+    type: episode
+    status: draft
+    main_characters:
+      - klein
+      - guardian-of-reflection
+    setting: forgotten-memory-node
+    related_spells:
+      - seal-resonance
+      - memory-vision
+    theme:
+      - forbidden-history
+      - betrayal-of-record
+    created: 2025-03-26
+    modified: 2025-03-26
+    author: abckill101
+
+  - episode_id: ep4-20
+    title: ep4-20
+    chapter: "บทที่ 4: ความลับใต้ชั้นผนึก"
+    page: full
+    type: episode
+    status: draft
+    main_characters:
+      - klein
+      - echo-resonance-system
+    setting: inner-echo-chamber
+    related_spells:
+      - fragment-echo
+      - seal-resonance
+      - memory-disruption-field
+    theme:
+      - inheritance
+      - awakening
+    created: 2025-03-26
+    modified: 2025-03-26
+    author: abckill101
