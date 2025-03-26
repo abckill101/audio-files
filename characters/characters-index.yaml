@@ -1,0 +1,10 @@
+characters:
+  silent-fortune: [kline-fendrix, aila-vendarin, arvel-feldman, aviana-orelia, beren-stonecook, finn-wildcard, graf-bloodbrand, isaac-nocturne, kael-thorne, lucia-blackwood, lyla-fortune, maria_luna, orphea-stringheart, rudy-gearwright, serena-whiteford, seril-wenston]                                     
+  npc: [elrys-memory, marek-kozlowski, thuren-boundary, verel-drystrom]
+  enemy: [nigel-darkraven, rex-flameheart, victor-falkner, zargos_werth]
+  player: [kanokwan-sarisa]
+  story:
+  ep1: [kline-fendrix, kanokwan-sarisa, aviana-orelia]
+  ep2: [kline-fendrix, elrys-memory, marek-kozlowski]
+  ep3: [kline-fendrix, kanokwan-sarisa, thuren-boundary] 
+  ep4: [kline-fendrix, kanokwan-sarisa, elrys-memory, thuren-boundary, isaac-nocturne]
