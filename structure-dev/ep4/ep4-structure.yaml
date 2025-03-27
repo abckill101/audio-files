@@ -84,7 +84,7 @@ episodes:
     chapter: "บทที่ 4: ความลับใต้ชั้นผนึก"
     page: full
     type: episode
-    status: draft
+    status: finalized
     main_characters:
       - klein
       - echo-resonance-system
@@ -93,9 +93,13 @@ episodes:
       - fragment-echo
       - seal-resonance
       - memory-disruption-field
+      - echo-fusion
+      - inheritance-link
     theme:
       - inheritance
       - awakening
+      - sound-based-magic
+      - acceptance
     created: 2025-03-26
     modified: 2025-03-26
     author: abckill101
