@@ -1,0 +1,45 @@
+context_index:
+  characters:
+    index: characters-index.yaml
+    readme: characters/characters-README.md
+    schema: schemas/validate-schema-character.yaml
+    template: templates/character-template.md
+  context-ai:
+    checklist: context-ai-checklist-notify.yaml
+    checklist: context-ai-checklist.yaml
+    guide: context-ai.md
+    guide_cleaned: context-ai-cleaned.md
+  magic:
+    index: magic-index.yaml
+    readme: magic-README.md
+    schema: schemas/validate-schema-magic.yaml
+    template: templates/magic-template.md
+  monsters:
+    readme: monsters/monsters-README.md
+  quests:
+    index: quest-index.yaml
+    readme: quest-README.md
+    schema: schemas/validate-schema-quest.yaml
+    template: templates/quest-template.md
+  structure:
+    index: structure-index.yaml
+    template: templates/structure-template.md
+    schema: schemas/validate-schema-structure.yaml
+    episode_schema: story/validate-schema-episode-readme.yaml
+    readme: story/story-README.md  
+  worldbuilding:
+    readme: worldbuilding/worldbuilding-README.md
+    index: worldbuilding-index.yaml
+    schema: validate-schema-worldbuilding.yaml
+  world-query:
+    index: worldbuilding-index.yaml
+    schema: validate-schema-worldbuilding.yaml
+    version: 1.1
+    type: categorized-worldbuilding
+    usage: category → file-list → class-tag → context-link    
+metadata:
+  auto-parsable: true
+  description: ศูนย์รวมเส้นทางอ้างอิง context ของระบบ AI เพื่อให้เข้าถึงข้อมูลอย่างแม่นยำและรวดเร็ว
+  project: Farming War
+  type: context-ai-index
+  version: '1.0'

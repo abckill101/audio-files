@@ -1,0 +1,55 @@
+categories:
+  characters:
+    status: complete
+    updated_at: '2025-03-27'
+    watch_paths:
+    - characters-index.yaml
+    - templates/character-template.md
+    - schemas/validate-schema-character.yaml
+  magic:
+    status: complete
+    updated_at: '2025-03-27'
+    watch_paths:
+    - magic-index.yaml
+    - templates/magic-template.md
+    - schemas/validate-schema-magic.yaml
+  monsters:
+    status: complete
+    updated_at: '2025-03-26'
+    watch_paths:
+    - monsters/monsters-README.md
+  quests:
+    status: complete
+    updated_at: '2025-03-27'
+    watch_paths:
+    - quest-index.yaml
+    - templates/quest-template.md
+    - schemas/validate-schema-quest.yaml
+  structure:
+    notify: true
+    status: in-progress
+    updated_at: '2025-03-27'
+    watch_paths:
+    - structure-index.yaml
+    - templates/structure-template.md
+    - schemas/validate-schema-structure.yaml
+  worldbuilding:
+    status: partial
+    updated_at: '2025-03-25'
+    watch_paths:
+    - worldbuilding/worldbuilding-README.md
+metadata:
+  auto-parsable: true
+  description: ระบบตรวจสอบและแจ้งเตือน context ให้ AI รุ่นถัดไปทราบว่ามีการเปลี่ยนแปลง
+  project: Farming War
+  type: context-ai-checklist
+  version: '1.1'
+watch:
+  auto_revalidate: true
+  check_modified_date: true
+  enabled: true
+  notify_fields:
+  - template
+  - schema
+  - index
+  - readme

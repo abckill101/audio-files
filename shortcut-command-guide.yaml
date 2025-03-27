@@ -1,0 +1,48 @@
+commands:
+  char:
+    args:
+    - ชื่อหรือรหัสตัวละคร เช่น maria-luna, serena
+    description: เรียกดูข้อมูลตัวละครจาก characters-index.yaml
+  context:
+    args:
+    - คำสั่งเสริม เช่น checklist, missing
+    description: เข้าถึงข้อมูล context-ai เช่น checklist, index
+  dev:
+    args: []
+    description: แสดงสิ่งที่อยู่ระหว่างพัฒนา เช่น dev plan
+  ep:
+    args:
+    - รหัสตอน เช่น ep3-15
+    description: เรียก metadata ของตอน เช่น ep4-16
+  help:
+    args: []
+    description: แสดงรายการคำสั่งทั้งหมดที่ใช้งานได้
+  item:
+    args:
+    - ชื่อไอเท็ม
+    description: ดึงข้อมูลไอเท็ม (future)
+  magic:
+    args:
+    - ชื่อเวท เช่น echo-pulse, mirror-seal
+    description: เรียกดูเวทมนตร์จาก magic-index.yaml
+  quest:
+    args:
+    - ชื่อหรือ id เควส เช่น shadow-patrol
+    description: เรียกดูข้อมูลเควสจาก quest-index.yaml
+  story:
+    args:
+    - ep หรือหัวข้อเนื้อเรื่อง
+    description: เข้าถึงไฟล์เนื้อเรื่องโดยตรง
+  world:
+    args:
+    - หัวข้อ worldbuilding เช่น seal-network
+    description: เรียก worldbuilding เฉพาะด้าน เช่น เผ่า, ผนึก, พื้นที่
+metadata:
+  auto-parsable: true
+  description: ระบบคำสั่งแบบสั้นเพื่อดึงข้อมูลเฉพาะจากไฟล์ index, schema, และ worldbuilding
+  project: Farming War
+  type: shortcut-command-guide
+  version: '1.0'
+note: ระบบนี้ออกแบบให้ AI สามารถดึงข้อมูลเฉพาะจุดโดยไม่ต้องอธิบายซ้ำ เหมาะกับ repo
+  ที่มีข้อมูลจำนวนมากและมีโครงสร้างชัดเจน
+prefix: '@@'

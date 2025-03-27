@@ -1,0 +1,41 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+properties:
+  episodes:
+    items:
+      properties:
+        chapter:
+          type: string
+        episode_id:
+          pattern: ^ep[0-9]+-[0-9]+$
+          type: string
+        file:
+          pattern: ^story/.+\.md$
+          type: string
+      required:
+      - episode_id
+      - chapter
+      - file
+      type: object
+    type: array
+  metadata:
+    properties:
+      auto-parsable:
+        type: boolean
+      project:
+        type: string
+      type:
+        const: structure-index
+        type: string
+      version:
+        type: string
+    required:
+    - type
+    - version
+    - auto-parsable
+    - project
+    type: object
+required:
+- metadata
+- episodes
+title: Validate Schema for Episode Structure
+type: object

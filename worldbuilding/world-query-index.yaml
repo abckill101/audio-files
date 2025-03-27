@@ -1,0 +1,23 @@
+metadata:
+  auto-parsable: true
+  description: ระบบค้นหาข้อมูล worldbuilding ตาม keyword, zone, region
+  type: world-query-index
+  version: '1.1'
+query:
+  ep3:
+    core-locations:
+    - worldbuilding/locations/ep3/inner-seal-core.md
+    - worldbuilding/locations/ep3/stone-inscription-plaza.md
+  inner-seal-core: worldbuilding/locations/ep3/inner-seal-core.md
+  region:
+    central-orthia:
+    - stone-inscription-plaza
+    deep-network-zone:
+    - inner-seal-core
+  stone-inscription-plaza: worldbuilding/locations/ep3/stone-inscription-plaza.md
+  zone:
+    fragmented-memory:
+    - inner-seal-core
+    seal-network:
+    - inner-seal-core
+    - stone-inscription-plaza

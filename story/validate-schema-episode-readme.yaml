@@ -1,0 +1,63 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+properties:
+  author:
+    type: string
+  chapter:
+    type: string
+  created:
+    format: date
+    type: string
+  episode_id:
+    pattern: ^ep[0-9]+-[0-9]+$
+    type: string
+  main_characters:
+    items:
+      type: string
+    type: array
+  modified:
+    format: date
+    type: string
+  page:
+    enum:
+    - full
+    - mini
+    - split
+    type: string
+  related_spells:
+    items:
+      type: string
+    type: array
+  setting:
+    type: string
+  status:
+    enum:
+    - draft
+    - finalized
+    - reviewed
+    type: string
+  theme:
+    items:
+      type: string
+    type: array
+  title:
+    type: string
+  type:
+    enum:
+    - episode
+    type: string
+required:
+- episode_id
+- title
+- chapter
+- page
+- type
+- status
+- main_characters
+- setting
+- related_spells
+- theme
+- created
+- modified
+- author
+title: Episode README Schema
+type: object

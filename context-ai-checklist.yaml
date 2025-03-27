@@ -1,0 +1,45 @@
+checklist:
+  auto-linking:
+    anchors-in-README: ✅ quest, magic, characters
+    schema-validation: ✅ ทุกหมวดมี schema
+    status: operational
+    template-references: ✅ ทุกหมวดมี anchor ไปยัง template
+  characters:
+    README: ✅ characters-README.md (with anchors)
+    index: ✅ characters-index.yaml
+    status: complete
+    template: ✅ character-template.md
+    validate-schema: ✅ validate-schema-character.yaml
+  magic:
+    README: ✅ magic-README.md (with anchors)
+    index: ✅ magic-index.yaml
+    status: complete
+    template: ✅ magic-template.md
+    validate-schema: ✅ validate-schema-magic.yaml
+  monsters:
+    README: ✅ monsters-README.md
+    metadata: ✅ รวม rank, type, anchor ในชื่อไฟล์แล้ว
+    status: complete
+  quests:
+    README: ✅ quest-README.md (with anchors)
+    index: ✅ quest-index.yaml
+    status: complete
+    template: ✅ quest-template.md
+    validate-schema: ✅ validate-schema-quest.yaml
+  structure:
+    README: ❌
+    index: ⚠ ยังไม่มี structure-index.yaml
+    status: in-progress
+    template: ⚠ ยังไม่มี structure-template.md
+    validate-schema: ⚠ ยังไม่มี validate-schema-structure.yaml
+  worldbuilding:
+    README: ✅ worldbuilding-README.md
+    metadata: ⚠ ต้องเพิ่ม anchors หรือ references
+    status: partial
+metadata:
+  auto-parsable: true
+  project: Farming War
+  type: context-ai-checklist
+  version: '1.0'
+note: เช็คลิสต์นี้ใช้เพื่อให้ระบบ AI รุ่นถัดไปสามารถเข้าใจและใช้งานโครงสร้างข้อมูลได้แบบ
+  zero-shot

@@ -1,0 +1,32 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+properties:
+  categories:
+    additionalProperties: false
+    patternProperties:
+      ^[a-z0-9\-_]+$:
+        items:
+          type: string
+        type: array
+    type: object
+  metadata:
+    properties:
+      auto-parsable:
+        type: boolean
+      source-path:
+        type: string
+      type:
+        const: worldbuilding-index
+        type: string
+      version:
+        type: string
+    required:
+    - type
+    - version
+    - auto-parsable
+    - source-path
+    type: object
+required:
+- metadata
+- categories
+title: Worldbuilding Index Schema
+type: object

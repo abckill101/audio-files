@@ -1,0 +1,37 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+properties:
+  metadata:
+    properties:
+      auto-parsable:
+        type: boolean
+      description:
+        type: string
+      type:
+        const: world-query-index
+        type: string
+      version:
+        type: string
+    required:
+    - type
+    - version
+    - auto-parsable
+    type: object
+  query:
+    patternProperties:
+      ^.*$:
+        anyOf:
+        - type: string
+        - patternProperties:
+            ^.*$:
+              anyOf:
+              - type: string
+              - items:
+                  type: string
+                type: array
+          type: object
+    type: object
+required:
+- metadata
+- query
+title: World Query Index Schema (with map)
+type: object
