@@ -57,3 +57,16 @@ quests:
   name: Quest Shadow Rat
   rank: D
   type: hunt
+- ep: 4
+  file: quests/quest-echo-hunt.md
+  id: quest-echo-hunt
+  name: Quest Echo Hunt
+  rank: C
+  type: gathering
+
+- ep: 4
+  file: quests/quest-seal-liberation.md
+  id: quest-seal-liberation
+  name: Quest Seal Liberation
+  rank: B
+  type: main

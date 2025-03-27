@@ -22,3 +22,8 @@ source-path: quests/
 
 ## EP3
 - **Quest Awakening Echo Ep3** (`quest-awakening-echo-ep3`) – *Rank: B*, *Type: special*
+
+## EP4
+- **Quest Echo Hunt** (`quest-echo-hunt`) – *Rank: C*, *Type: gathering*
+- **Quest Seal Liberation** (`quest-seal-liberation`) – *Rank: B*, *Type: main*
+
