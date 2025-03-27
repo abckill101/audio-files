@@ -1,104 +1,102 @@
 context_index:
   characters:
-  silent-fortune:
-  - file: characters/arvel-feldman.md
-    name: Arvel Feldman
-    summary: นักแม่นธนูเงียบขรึม ผู้เชี่ยวชาญการลอบโจมตีและแกะรอยในป่า
-  - file: characters/aviana-orelia.md
-    name: Aviana Orelia
-    summary: นักเวทแสงผู้มีพลังรักษาและสะท้อนเวทได้อย่างแม่นยำ
-  - file: characters/beren-stonecook.md
-    name: Beren Stonecook
-    summary: นักปรุงอาหารภาคสนามและนักตีเหล็กอารมณ์ดี พลังสูงผิดคาด
-  - file: characters/finn-wildcard.md
-    name: Finn Wildcard
-    summary: หัวขโมยสายลุย ผู้ใช้ไพ่เวทเป็นอาวุธและเสี่ยงดวงทุกสถานการณ์
-  - file: characters/graf-bloodbrand.md
-    name: Graf Bloodbrand
-    summary: นักสู้สายพละกำลัง อดีตทหารรับจ้างผู้อยู่แนวหน้าเสมอ
-  - file: characters/isaac-nocturne.md
-    name: Isaac Nocturne
-    summary: นักเวทเงา สายสังเกตการณ์และสะกดจิตศัตรูจากระยะไกล
-  - file: characters/kael-thorne.md
-    name: Kael Thorne
-    summary: มือสังหารในเงามืด ใช้เวทเคลื่อนไหวเงียบและอาวุธคู่
-    - file: characters/kline-fendrix.md
-    name: Kline Fendrix
-    summary: หัวหน้าทีม Silent Fortune ผู้เน้นกลยุทธ์และการบริหารทรัพยากร
-  - file: characters/lucia-blackwood.md
-    name: Lucia Blackwood
-    summary: สายลับสะกดจิต ผู้เชี่ยวชาญด้านข้อมูลและควบคุมจิตใจศัตรู
-  - file: characters/lyla-fortune.md
-    name: Lyla Fortune
-    summary: ผู้ใช้เวทรักษาและสนับสนุนทางยุทธวิธี เป็นพลังใจหลักของทีม
-  - file: characters/nigel-darkraven.md
-    name: Nigel Darkraven
-    summary: จอมเวทมืดผู้แยกตัวจากสภาเวท มีเป้าหมายลึกลับและใช้เวทต้องห้าม
-  - file: characters/orphea-stringheart.md
-    name: Orphea Stringheart
-    summary: นักดนตรีเวท ผู้สามารถสร้างแรงสะเทือนทางอารมณ์ผ่านเสียงเพลง
-  - file: characters/rex-flameheart.md
-    name: Rex Flameheart
-    summary: นักรบสายไฟ สายเลือดนักสู้จากตระกูล Flameheart
-  - file: characters/rudy-gearwright.md
-    name: Rudy Gearwright
-    summary: ช่างกลผู้ประดิษฐ์ไอเท็มภาคสนาม มีเครื่องมือพกพาทุกรูปแบบ
-  - file: characters/serena-whiteford.md
-    name: Serena Whiteford
-    summary: นักเวทน้ำแข็งผู้ควบคุมสนามรบด้วยความเยือกเย็นและแม่นยำ
-  enemy:
-  - file: characters/enemy/zargos-werth.md
-    name: Zargos Werth
-    summary: กรุณาใส่สรุปตัวละครที่นี่
-  - file: characters/enemy/victor-falkner.md
-    name: Victor Falkner
-    summary: กรุณาใส่สรุปตัวละครที่นี่
-  - file: characters/enemy/rex-flameheart.md
-    name: Rex Flameheart
-    summary: กรุณาใส่สรุปตัวละครที่นี่
-  - file: characters/enemy/nigel-darkraven.md
-    name: Nigel Darkraven
-    summary: กรุณาใส่สรุปตัวละครที่นี่
-  npc:
-  - file: characters/npc/elrys-memory.md
-    name: Elrys Memory
-    summary: กรุณาใส่สรุปตัวละครที่นี่
-  - file: characters/npc/marek-kozlowski.md
-    name: Marek Kozlowski
-    summary: กรุณาใส่สรุปตัวละครที่นี่
-  - file: characters/npc/npc-README.md
-    name: Npc Readme
-    summary: กรุณาใส่สรุปตัวละครที่นี่
-  - file: characters/npc/thuren-boundary.md
-    name: Thuren Boundary
-    summary: กรุณาใส่สรุปตัวละครที่นี่
-  - file: characters/npc/verel-drystrom.md
-    name: Verel Drystrom
-    summary: กรุณาใส่สรุปตัวละครที่นี่
+    silent-fortune:
+      - file: characters/arvel-feldman.md
+        name: Arvel Feldman
+        summary: นักแม่นธนูเงียบขรึม ผู้เชี่ยวชาญการลอบโจมตีและแกะรอยในป่า
+      - file: characters/aviana-orelia.md
+        name: Aviana Orelia
+        summary: นักเวทแสงผู้มีพลังรักษาและสะท้อนเวทได้อย่างแม่นยำ
+      - file: characters/beren-stonecook.md
+        name: Beren Stonecook
+        summary: นักปรุงอาหารภาคสนามและนักตีเหล็กอารมณ์ดี พลังสูงผิดคาด
+      - file: characters/finn-wildcard.md
+        name: Finn Wildcard
+        summary: หัวขโมยสายลุย ผู้ใช้ไพ่เวทเป็นอาวุธและเสี่ยงดวงทุกสถานการณ์
+      - file: characters/graf-bloodbrand.md
+        name: Graf Bloodbrand
+        summary: นักสู้สายพละกำลัง อดีตทหารรับจ้างผู้อยู่แนวหน้าเสมอ
+      - file: characters/isaac-nocturne.md
+        name: Isaac Nocturne
+        summary: นักเวทเงา สายสังเกตการณ์และสะกดจิตศัตรูจากระยะไกล
+      - file: characters/kael-thorne.md
+        name: Kael Thorne
+        summary: มือสังหารในเงามืด ใช้เวทเคลื่อนไหวเงียบและอาวุธคู่
+      - file: characters/kline-fendrix.md
+        name: Kline Fendrix
+        summary: หัวหน้าทีม Silent Fortune ผู้เน้นกลยุทธ์และการบริหารทรัพยากร
+      - file: characters/lucia-blackwood.md
+        name: Lucia Blackwood
+        summary: สายลับสะกดจิต ผู้เชี่ยวชาญด้านข้อมูลและควบคุมจิตใจศัตรู
+      - file: characters/lyla-fortune.md
+        name: Lyla Fortune
+        summary: ผู้ใช้เวทรักษาและสนับสนุนทางยุทธวิธี เป็นพลังใจหลักของทีม
+      - file: characters/nigel-darkraven.md
+        name: Nigel Darkraven
+        summary: จอมเวทมืดผู้แยกตัวจากสภาเวท มีเป้าหมายลึกลับและใช้เวทต้องห้าม
+      - file: characters/orphea-stringheart.md
+        name: Orphea Stringheart
+        summary: นักดนตรีเวท ผู้สามารถสร้างแรงสะเทือนทางอารมณ์ผ่านเสียงเพลง
+      - file: characters/rex-flameheart.md
+        name: Rex Flameheart
+        summary: นักรบสายไฟ สายเลือดนักสู้จากตระกูล Flameheart
+      - file: characters/rudy-gearwright.md
+        name: Rudy Gearwright
+        summary: ช่างกลผู้ประดิษฐ์ไอเท็มภาคสนาม มีเครื่องมือพกพาทุกรูปแบบ
+      - file: characters/serena-whiteford.md
+        name: Serena Whiteford
+        summary: นักเวทน้ำแข็งผู้ควบคุมสนามรบด้วยความเยือกเย็นและแม่นยำ
+    enemy:
+      - file: characters/enemy/zargos-werth.md
+        name: Zargos Werth
+        summary: กรุณาใส่สรุปตัวละครที่นี่
+      - file: characters/enemy/victor-falkner.md
+        name: Victor Falkner
+        summary: กรุณาใส่สรุปตัวละครที่นี่
+      - file: characters/enemy/rex-flameheart.md
+        name: Rex Flameheart
+        summary: กรุณาใส่สรุปตัวละครที่นี่
+      - file: characters/enemy/nigel-darkraven.md
+        name: Nigel Darkraven
+        summary: กรุณาใส่สรุปตัวละครที่นี่
+    npc:
+      - file: characters/npc/elrys-memory.md
+        name: Elrys Memory
+        summary: กรุณาใส่สรุปตัวละครที่นี่
+      - file: characters/npc/marek-kozlowski.md
+        name: Marek Kozlowski
+        summary: กรุณาใส่สรุปตัวละครที่นี่
+      - file: characters/npc/npc-README.md
+        name: Npc Readme
+        summary: กรุณาใส่สรุปตัวละครที่นี่
+      - file: characters/npc/thuren-boundary.md
+        name: Thuren Boundary
+        summary: กรุณาใส่สรุปตัวละครที่นี่
+      - file: characters/npc/verel-drystrom.md
+        name: Verel Drystrom
+        summary: กรุณาใส่สรุปตัวละครที่นี่
     player:
-  - file: characters/player/kanokwan-sarisa.md
-    name: Kanokwan Sarisa
-    summary: กรุณาใส่สรุปตัวละครที่นี่
-  - file: characters/player/player-README.md
-    name: Player Readme
-    summary: กรุณาใส่สรุปตัวละครที่นี่
+      - file: characters/player/kanokwan-sarisa.md
+        name: Kanokwan Sarisa
+        summary: กรุณาใส่สรุปตัวละครที่นี่
+      - file: characters/player/player-README.md
+        name: Player Readme
+        summary: กรุณาใส่สรุปตัวละครที่นี่
     story:
-  - file: characters/story/ep1
-    name: Ep1
-    summary: กรุณาใส่สรุปตัวละครที่นี่
-  - file: characters/story/ep2
-    name: Ep2
-    summary: กรุณาใส่สรุปตัวละครที่นี่
-  - file: characters/story/ep3
-    name: Ep3
-    summary: กรุณาใส่สรุปตัวละครที่นี่
+      - file: characters/story/ep1
+        name: Ep1
+        summary: กรุณาใส่สรุปตัวละครที่นี่
+      - file: characters/story/ep2
+        name: Ep2
+        summary: กรุณาใส่สรุปตัวละครที่นี่
+      - file: characters/story/ep3
+        name: Ep3
+        summary: กรุณาใส่สรุปตัวละครที่นี่
 
   context-ai:
-  checklist:
-    - context-ai-checklist.yaml
-    - context-ai-checklist-notify.yaml
-    checklist: context-ai-checklist-notify.yaml
-    checklist: context-ai-checklist.yaml
+    checklist:
+      - context-ai-checklist.yaml
+      - context-ai-checklist-notify.yaml
     guide: context-ai.md
     guide_cleaned: context-ai-cleaned.md
   magic:
@@ -135,7 +133,6 @@ context_index:
     target: worldbuilding
     usage: keyword → worldbuilding path
     version: 1.0
- 
         
 metadata:
   auto-parsable: true
