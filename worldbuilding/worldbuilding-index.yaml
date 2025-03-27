@@ -1,147 +1,144 @@
-categories: !!python/object/apply:collections.defaultdict
-  args:
-  - !!python/name:builtins.dict ''
-  dictitems:
-    worldbuilding:
-      worldbuilding/bestiary/monster-compendium.md:
-        class: general-worldbuilding
-      worldbuilding/cultures/fashion-and-clothing.md:
-        class: general-worldbuilding
-      worldbuilding/cultures/festivals-and-celebrations.md:
-        class: general-worldbuilding
-      worldbuilding/cultures/historical-figures-and-heroes.md:
-        class: general-worldbuilding
-      worldbuilding/cultures/languages-and-cultures.md:
-        class: general-worldbuilding
-      worldbuilding/cultures/religions-and-beliefs.md:
-        class: general-worldbuilding
-      worldbuilding/cultures/slavery-and-labor-systems.md:
-        class: general-worldbuilding
-      worldbuilding/cultures/sports-and-competitions.md:
-        class: general-worldbuilding
-      worldbuilding/economy-and-politics/banking-and-finance.md:
-        class: general-worldbuilding
-      worldbuilding/economy-and-politics/black-market-and-smuggling.md:
-        class: general-worldbuilding
-      worldbuilding/economy-and-politics/economic-warfare.md:
-        class: general-worldbuilding
-      worldbuilding/economy-and-politics/economy.md:
-        class: general-worldbuilding
-      worldbuilding/economy-and-politics/justice-system-and-law-enforcement.md:
-        class: general-worldbuilding
-      worldbuilding/economy-and-politics/kingdom-system.md:
-        class: general-worldbuilding
-      worldbuilding/economy-and-politics/kingdom-wars.md:
-        class: general-worldbuilding
-      worldbuilding/economy-and-politics/laws-and-politics.md:
-        class: general-worldbuilding
-      worldbuilding/economy-and-politics/resources.md:
-        class: general-worldbuilding
-      worldbuilding/economy-and-politics/technology-and-industry.md:
-        class: general-worldbuilding
-      worldbuilding/economy-and-politics/transportation-and-travel.md:
-        class: general-worldbuilding
-      worldbuilding/economy-and-politics/underground-economy.md:
-        class: general-worldbuilding
-      worldbuilding/factions/arcane-order.md:
-        class: general-worldbuilding
-      worldbuilding/factions/battle-strategy.md:
-        class: general-worldbuilding
-      worldbuilding/factions/espionage-and-intelligence.md:
-        class: general-worldbuilding
-      worldbuilding/factions/factions-README.md:
-        class: general-worldbuilding
-      worldbuilding/factions/factions-index.md:
-        class: general-worldbuilding
-      worldbuilding/factions/guilds-and-factions.md:
-        class: general-worldbuilding
-      worldbuilding/factions/mercenary-and-bounty-hunters.md:
-        class: general-worldbuilding
-      worldbuilding/factions/military-tactics.md:
-        class: general-worldbuilding
-      worldbuilding/factions/war-propaganda.md:
-        class: general-worldbuilding
-      worldbuilding/lifestyle/cuisine-and-cooking.md:
-        class: general-worldbuilding
-      worldbuilding/lifestyle/medicine-and-herbs.md:
-        class: general-worldbuilding
-      worldbuilding/locations/ancient-ruins-and-lore.md:
-        class: general-worldbuilding
-      worldbuilding/locations/architecture-and-construction.md:
-        class: general-worldbuilding
-      worldbuilding/locations/astronomy-and-calendar.md:
-        class: general-worldbuilding
-      worldbuilding/locations/city-faltier.md:
-        class: general-worldbuilding
-      worldbuilding/locations/dungeon-ecology.md:
-        class: general-worldbuilding
-      worldbuilding/locations/dungeon-shadowrift.md:
-        class: general-worldbuilding
-      worldbuilding/locations/ep1/old-arcanist-row.md:
-        class: general-worldbuilding
-      worldbuilding/locations/ep1/umbral-garden.md:
-        class: general-worldbuilding
-      worldbuilding/locations/ep2/shadow-grove.md:
-        class: general-worldbuilding
-      worldbuilding/locations/ep3/ancient-seal-chamber.md:
-        class: general-worldbuilding
-      worldbuilding/locations/ep3/anurah-stonefall.md:
-        class: general-worldbuilding
-      worldbuilding/locations/ep3/inner-seal-core.md.md:
-        class: general-worldbuilding
-      worldbuilding/locations/ep3/old-path.md:
-        class: general-worldbuilding
-      worldbuilding/locations/ep3/shadow-valley-path.md:
-        class: general-worldbuilding
-      worldbuilding/locations/ep3/stone-inscription-plaza.md:
-        class: general-worldbuilding
-      worldbuilding/locations/ep3/western-forest.md:
-        class: general-worldbuilding
-      worldbuilding/locations/ep4/hidden-pathway.md:
-        class: general-worldbuilding
-      worldbuilding/locations/geography-and-climate.md:
-        class: general-worldbuilding
-      worldbuilding/locations/lowerzone.md:
-        class: general-worldbuilding
-      worldbuilding/magic-system/README.md:
-        class: general-worldbuilding
-      worldbuilding/magic-system/education-and-magic-schools.md:
-        class: general-worldbuilding
-      worldbuilding/magic-system/ep2/feral-reflection.md:
-        class: general-worldbuilding
-      worldbuilding/magic-system/forbidden-archives.md:
-        class: general-worldbuilding
-      worldbuilding/magic-system/forbidden-arts.md:
-        class: general-worldbuilding
-      worldbuilding/magic-system/legendary-artifacts.md:
-        class: general-worldbuilding
-      worldbuilding/magic-system/magic-history.md:
-        class: general-worldbuilding
-      worldbuilding/magic-system/magic-system.md:
-        class: general-worldbuilding
-      worldbuilding/magic-system/magical-creatures-and-pets.md:
-        class: general-worldbuilding
-      worldbuilding/magic-system/organization-arcane-guild.md:
-        class: general-worldbuilding
-      worldbuilding/maps/maps-README.md:
-        class: general-worldbuilding
-      worldbuilding/maps/orthia_full_world_data.md:
-        class: general-worldbuilding
-      worldbuilding/structure/ep3/seal-network-ep3.md:
-        class: general-worldbuilding
-      worldbuilding/systems/crafting-system.md:
-        class: general-worldbuilding
-      worldbuilding/systems/farming-system.md:
-        class: general-worldbuilding
-      worldbuilding/systems/leveling-system-narrative.md:
-        class: general-worldbuilding
-      worldbuilding/validate-schema-world-query.yaml:
-        class: general-worldbuilding
-      worldbuilding/validate-schema-worldbuilding.yaml:
-        class: general-worldbuilding
-      worldbuilding/world-query-index.yaml:
-        class: general-worldbuilding
-      worldbuilding/worldbuilding-README.md:
-        class: general-worldbuilding
-      worldbuilding/worldbuilding-index.yaml:
-        class: general-worldbuilding
+categories:
+  worldbuilding:
+    worldbuilding/bestiary/monster-compendium.md:
+      class: general-worldbuilding
+    worldbuilding/cultures/fashion-and-clothing.md:
+      class: general-worldbuilding
+    worldbuilding/cultures/festivals-and-celebrations.md:
+      class: general-worldbuilding
+    worldbuilding/cultures/historical-figures-and-heroes.md:
+      class: general-worldbuilding
+    worldbuilding/cultures/languages-and-cultures.md:
+      class: general-worldbuilding
+    worldbuilding/cultures/religions-and-beliefs.md:
+      class: general-worldbuilding
+    worldbuilding/cultures/slavery-and-labor-systems.md:
+      class: general-worldbuilding
+    worldbuilding/cultures/sports-and-competitions.md:
+      class: general-worldbuilding
+    worldbuilding/economy-and-politics/banking-and-finance.md:
+      class: general-worldbuilding
+    worldbuilding/economy-and-politics/black-market-and-smuggling.md:
+      class: general-worldbuilding
+    worldbuilding/economy-and-politics/economic-warfare.md:
+      class: general-worldbuilding
+    worldbuilding/economy-and-politics/economy.md:
+      class: general-worldbuilding
+    worldbuilding/economy-and-politics/justice-system-and-law-enforcement.md:
+      class: general-worldbuilding
+    worldbuilding/economy-and-politics/kingdom-system.md:
+      class: general-worldbuilding
+    worldbuilding/economy-and-politics/kingdom-wars.md:
+      class: general-worldbuilding
+    worldbuilding/economy-and-politics/laws-and-politics.md:
+      class: general-worldbuilding
+    worldbuilding/economy-and-politics/resources.md:
+      class: general-worldbuilding
+    worldbuilding/economy-and-politics/technology-and-industry.md:
+      class: general-worldbuilding
+    worldbuilding/economy-and-politics/transportation-and-travel.md:
+      class: general-worldbuilding
+    worldbuilding/economy-and-politics/underground-economy.md:
+      class: general-worldbuilding
+    worldbuilding/factions/arcane-order.md:
+      class: general-worldbuilding
+    worldbuilding/factions/battle-strategy.md:
+      class: general-worldbuilding
+    worldbuilding/factions/espionage-and-intelligence.md:
+      class: general-worldbuilding
+    worldbuilding/factions/factions-README.md:
+      class: general-worldbuilding
+    worldbuilding/factions/factions-index.md:
+      class: general-worldbuilding
+    worldbuilding/factions/guilds-and-factions.md:
+      class: general-worldbuilding
+    worldbuilding/factions/mercenary-and-bounty-hunters.md:
+      class: general-worldbuilding
+    worldbuilding/factions/military-tactics.md:
+      class: general-worldbuilding
+    worldbuilding/factions/war-propaganda.md:
+      class: general-worldbuilding
+    worldbuilding/lifestyle/cuisine-and-cooking.md:
+      class: general-worldbuilding
+    worldbuilding/lifestyle/medicine-and-herbs.md:
+      class: general-worldbuilding
+    worldbuilding/locations/ancient-ruins-and-lore.md:
+      class: general-worldbuilding
+    worldbuilding/locations/architecture-and-construction.md:
+      class: general-worldbuilding
+    worldbuilding/locations/astronomy-and-calendar.md:
+      class: general-worldbuilding
+    worldbuilding/locations/city-faltier.md:
+      class: general-worldbuilding
+    worldbuilding/locations/dungeon-ecology.md:
+      class: general-worldbuilding
+    worldbuilding/locations/dungeon-shadowrift.md:
+      class: general-worldbuilding
+    worldbuilding/locations/ep1/old-arcanist-row.md:
+      class: general-worldbuilding
+    worldbuilding/locations/ep1/umbral-garden.md:
+      class: general-worldbuilding
+    worldbuilding/locations/ep2/shadow-grove.md:
+      class: general-worldbuilding
+    worldbuilding/locations/ep3/ancient-seal-chamber.md:
+      class: general-worldbuilding
+    worldbuilding/locations/ep3/anurah-stonefall.md:
+      class: general-worldbuilding
+    worldbuilding/locations/ep3/inner-seal-core.md.md:
+      class: general-worldbuilding
+    worldbuilding/locations/ep3/old-path.md:
+      class: general-worldbuilding
+    worldbuilding/locations/ep3/shadow-valley-path.md:
+      class: general-worldbuilding
+    worldbuilding/locations/ep3/stone-inscription-plaza.md:
+      class: general-worldbuilding
+    worldbuilding/locations/ep3/western-forest.md:
+      class: general-worldbuilding
+    worldbuilding/locations/ep4/hidden-pathway.md:
+      class: general-worldbuilding
+    worldbuilding/locations/geography-and-climate.md:
+      class: general-worldbuilding
+    worldbuilding/locations/lowerzone.md:
+      class: general-worldbuilding
+    worldbuilding/magic-system/README.md:
+      class: general-worldbuilding
+    worldbuilding/magic-system/education-and-magic-schools.md:
+      class: general-worldbuilding
+    worldbuilding/magic-system/ep2/feral-reflection.md:
+      class: general-worldbuilding
+    worldbuilding/magic-system/forbidden-archives.md:
+      class: general-worldbuilding
+    worldbuilding/magic-system/forbidden-arts.md:
+      class: general-worldbuilding
+    worldbuilding/magic-system/legendary-artifacts.md:
+      class: general-worldbuilding
+    worldbuilding/magic-system/magic-history.md:
+      class: general-worldbuilding
+    worldbuilding/magic-system/magic-system.md:
+      class: general-worldbuilding
+    worldbuilding/magic-system/magical-creatures-and-pets.md:
+      class: general-worldbuilding
+    worldbuilding/magic-system/organization-arcane-guild.md:
+      class: general-worldbuilding
+    worldbuilding/maps/maps-README.md:
+      class: general-worldbuilding
+    worldbuilding/maps/orthia_full_world_data.md:
+      class: general-worldbuilding
+    worldbuilding/structure/ep3/seal-network-ep3.md:
+      class: general-worldbuilding
+    worldbuilding/systems/crafting-system.md:
+      class: general-worldbuilding
+    worldbuilding/systems/farming-system.md:
+      class: general-worldbuilding
+    worldbuilding/systems/leveling-system-narrative.md:
+      class: general-worldbuilding
+    worldbuilding/validate-schema-world-query.yaml:
+      class: general-worldbuilding
+    worldbuilding/validate-schema-worldbuilding.yaml:
+      class: general-worldbuilding
+    worldbuilding/world-query-index.yaml:
+      class: general-worldbuilding
+    worldbuilding/worldbuilding-README.md:
+      class: general-worldbuilding
+    worldbuilding/worldbuilding-index.yaml:
+      class: general-worldbuilding

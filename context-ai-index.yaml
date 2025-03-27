@@ -5,6 +5,9 @@ context_index:
     schema: schemas/validate-schema-character.yaml
     template: templates/character-template.md
   context-ai:
+  checklist:
+    - context-ai-checklist.yaml
+    - context-ai-checklist-notify.yaml
     checklist: context-ai-checklist-notify.yaml
     checklist: context-ai-checklist.yaml
     guide: context-ai.md
@@ -37,6 +40,14 @@ context_index:
     version: 1.1
     type: categorized-worldbuilding
     usage: category → file-list → class-tag → context-link    
+  world-anchor-map:
+    file: worldbuilding/maps/world-anchor-map.yaml
+    type: anchor-map
+    target: worldbuilding
+    usage: keyword → worldbuilding path
+    version: 1.0
+ 
+        
 metadata:
   auto-parsable: true
   description: ศูนย์รวมเส้นทางอ้างอิง context ของระบบ AI เพื่อให้เข้าถึงข้อมูลอย่างแม่นยำและรวดเร็ว
