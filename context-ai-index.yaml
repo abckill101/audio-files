@@ -21,10 +21,7 @@ context_index:
   - file: characters/kael-thorne.md
     name: Kael Thorne
     summary: มือสังหารในเงามืด ใช้เวทเคลื่อนไหวเงียบและอาวุธคู่
-  - file: characters/kanokwan-sarisa.md
-    name: Kanokwan Sarisa
-    summary: เด็กสาวจากต่างโลก ผู้มีความทรงจำโลกเก่าและเชื่อมโยงกับพลังพิเศษ
-  - file: characters/kline-fendrix.md
+    - file: characters/kline-fendrix.md
     name: Kline Fendrix
     summary: หัวหน้าทีม Silent Fortune ผู้เน้นกลยุทธ์และการบริหารทรัพยากร
   - file: characters/lucia-blackwood.md
@@ -48,9 +45,54 @@ context_index:
   - file: characters/serena-whiteford.md
     name: Serena Whiteford
     summary: นักเวทน้ำแข็งผู้ควบคุมสนามรบด้วยความเยือกเย็นและแม่นยำ
-  - file: characters/victor-falkner.md
+enemy:
+  - file: characters/enemy/zargos-werth.md
+    name: Zargos Werth
+    summary: กรุณาใส่สรุปตัวละครที่นี่
+  - file: characters/enemy/victor-falkner.md
     name: Victor Falkner
-    summary: มือปืนสไนเปอร์เวท ผู้วิเคราะห์ศัตรูและยิงแม่นในหนึ่งนัด
+    summary: กรุณาใส่สรุปตัวละครที่นี่
+  - file: characters/enemy/rex-flameheart.md
+    name: Rex Flameheart
+    summary: กรุณาใส่สรุปตัวละครที่นี่
+  - file: characters/enemy/nigel-darkraven.md
+    name: Nigel Darkraven
+    summary: กรุณาใส่สรุปตัวละครที่นี่
+
+npc:
+  - file: characters/npc/elrys-memory.md
+    name: Elrys Memory
+    summary: กรุณาใส่สรุปตัวละครที่นี่
+  - file: characters/npc/marek-kozlowski.md
+    name: Marek Kozlowski
+    summary: กรุณาใส่สรุปตัวละครที่นี่
+  - file: characters/npc/npc-README.md
+    name: Npc Readme
+    summary: กรุณาใส่สรุปตัวละครที่นี่
+  - file: characters/npc/thuren-boundary.md
+    name: Thuren Boundary
+    summary: กรุณาใส่สรุปตัวละครที่นี่
+  - file: characters/npc/verel-drystrom.md
+    name: Verel Drystrom
+    summary: กรุณาใส่สรุปตัวละครที่นี่
+    player:
+  - file: characters/player/kanokwan-sarisa.md
+    name: Kanokwan Sarisa
+    summary: กรุณาใส่สรุปตัวละครที่นี่
+  - file: characters/player/player-README.md
+    name: Player Readme
+    summary: กรุณาใส่สรุปตัวละครที่นี่
+    story:
+  - file: characters/story/ep1
+    name: Ep1
+    summary: กรุณาใส่สรุปตัวละครที่นี่
+  - file: characters/story/ep2
+    name: Ep2
+    summary: กรุณาใส่สรุปตัวละครที่นี่
+  - file: characters/story/ep3
+    name: Ep3
+    summary: กรุณาใส่สรุปตัวละครที่นี่
+
   context-ai:
   checklist:
     - context-ai-checklist.yaml
