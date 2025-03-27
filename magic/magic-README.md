@@ -1,153 +1,165 @@
-# Magic System Index
+---
 
-รวมคำอธิบายเวทมนตร์และพลังงานที่ใช้ในจักรวาล *Farming War*  
-สำหรับอ้างอิงระหว่างการเขียนตอนหลัก, worldbuilding, และตรวจสอบ continuity
+<!--
+type: magic-index
+structure: grouped-by-episode-class-and-usage
+auto-parsable: true
+source-path: worldbuilding/magic/
+-->
+
+---
+# สารบัญเวทมนตร์ (Magic Index) – Farming War
+
+เอกสารนี้รวบรวมเวทมนตร์ทั้งหมดที่ปรากฏในนิยาย *Farming War* จัดเรียงแบบ 3 ชั้น เพื่อให้ AI และนักเขียนเข้าถึงข้อมูลได้รวดเร็วและตรงประเด็น
+
+## คู่มือการพัฒนาเวทมนตร์ (Magic Development Guide)
+
+เอกสารนี้ใช้กำหนดมาตรฐานและแนวทางการจัดเก็บเวทมนตร์ทั้งหมดในโปรเจกต์ *Farming War* เพื่อให้สามารถใช้งานและอ้างอิงได้อย่างเป็นระบบ ทั้งโดยมนุษย์และ AI รุ่นถัดไป
 
 ---
 
-## แนวทางการอัปเดตเวท (Magic Entry Update Guide)
+### 1. โครงสร้างโฟลเดอร์
 
-เมื่อมีเวทใหม่ (สกิลใหม่) เพิ่มเข้ามาในเนื้อเรื่องหรือระบบของจักรวาล *Farming War*  
-ให้ทำตามขั้นตอนนี้เพื่อให้อ้างอิงได้ในภายหลัง:
-
-1. **สร้างไฟล์ `.md` ใหม่ของเวทนั้น**
-   - ตั้งชื่อแบบภาษาอังกฤษ เช่น `time-bound-echo.md`
-   - เก็บไว้ในโฟลเดอร์ `magic/epX/` ตาม EP ที่ปรากฏ
-   - ใช้รูปแบบมาตรฐาน: ชื่อ, ประเภท, คำอธิบาย, เงื่อนไข, ผลลัพธ์
-
-2. **เพิ่มรายการเวทใหม่เข้าในไฟล์นี้ (magic-README.md)**
-   - ระบุหัวข้อเวทในหมวด EP ที่เกี่ยวข้อง
-   - ใส่หัวข้อย่อย:
-     ```markdown
-     ### Time-Bound Echo  
-     **ประเภท:** เวทสะท้อนแบบจำกัดเวลา  
-     **ไฟล์:** `magic/ep5/time-bound-echo.md`  
-     คำอธิบายสั้น: เวทที่สะท้อนเฉพาะคลื่นพลังงานที่เกิดซ้ำภายในเวลาที่กำหนด
-     ```
-
-3. **เวทที่ไม่มีใน README นี้ = ยังไม่ถูกรวมเข้าระบบอ้างอิงกลาง**
-   - ตรวจสอบได้จากความคลาดเคลื่อนในการเชื่อมโยงไฟล์กับเรื่องหลัก
-   - สามารถให้ ChatGPT รุ่นถัดไปช่วยเปรียบเทียบและเตือนให้อัตโนมัติ
-
-4. **เวททั้งหมดต้องสอดคล้องกับ EP และชื่อไฟล์ในระบบ Git**
-   - เพื่อการค้นหาและรวมข้อมูลอัตโนมัติในอนาคต
+- เวทมนตร์ทั้งหมดเก็บไว้ใน `magic/`
+- แบ่งตามตอนที่ปรากฏ โดยใช้โฟลเดอร์ย่อย:
+  - `magic/ep2/`
+  - `magic/ep3/`
+  - `magic/ep4/`  
+- ทุกไฟล์ควรมีนามสกุล `.md` และใช้ **ตัวพิมพ์เล็กทั้งหมด**
 
 ---
 
+### 2. การตั้งชื่อไฟล์เวท
 
-## EP2
+ใช้รูปแบบ:
 
-### Echo Pulse (EP2)
-**ประเภท:** เวทกระตุ้นเสียงสะท้อนเบื้องต้น  
-**ไฟล์:** `magic/ep2/echo-pulse-ep2.md`  
-เวทที่ปล่อยคลื่นสะท้อนเพื่อตรวจจับเศษพลังงานผนึกในบริเวณโดยรอบ
 
----
-
-### Feral Reflection
-**ประเภท:** เวทสะท้อนแบบไม่เสถียร  
-**ไฟล์:** `magic/ep2/feral-reflection-ep2.md`  
-พลังสะท้อนที่เกิดจากความไม่สมดุลของพลังชีวิต ใช้ในพื้นที่ควบคุมยาก
+ตัวอย่าง:
+- `mirror-seal-ep2.md`
+- `echo-pulse-ep3.md`
+- `inheritance-link-ep4.md`
 
 ---
 
-### Mirror Seal (EP2)
-**ประเภท:** เวทป้องกัน / ผนึกสะท้อน  
-**ไฟล์:** `magic/ep2/mirror-seal-ep2.md`  
-ผนึกสะท้อนเวทที่สร้างภาพลวงตาและเลียนแบบพลังศัตรู
+### 3. โครงสร้างเนื้อหาในไฟล์เวท
+
+ควรประกอบด้วยหัวข้อหลักดังนี้:
+
+```markdown
+# ชื่อเวท (ภาษาไทย + ภาษาอังกฤษ)
+
+**ระดับเวท:** (พื้นฐาน / กลาง / สูง / โบราณ / ต้องปลดล็อก)  
+**คลาสเวท:** (เวทสะท้อน / เวทผนึก / ความทรงจำ / ก่อกวน ฯลฯ)  
+**ประเภทการใช้งาน:** (โจมตี / ป้องกัน / สนับสนุน / ฟื้นฟู / ฟังก์ชันพิเศษ)
+
+## คำอธิบายโดยรวม
+(อธิบายว่าเวทนี้คืออะไร มีที่มา/บทบาทอย่างไรในเรื่อง)
+
+## วิธีใช้งาน
+(วิธีร่าย / เงื่อนไข / ข้อจำกัด)
+
+## ผลกระทบ
+(ผลลัพธ์เมื่อสำเร็จ เช่น ความเสียหาย การบัฟ การเดบัฟ ฯลฯ)
+
+## ความสัมพันธ์กับระบบอื่น
+(เกี่ยวข้องกับ Seal Network, Echo, หรือพลังความทรงจำหรือไม่)
+
+## ปรากฏครั้งแรกใน
+(ระบุตอน เช่น EP3-14)
+
+## หมายเหตุเพิ่มเติม
+(ใช้เฉพาะบางสถานการณ์? มีผลข้างเคียง? ใช้เฉพาะตัวละคร?)
+
+การ commit หรือบันทึกการเปลี่ยนแปลง
+
+เพิ่มเวทใหม่: seal-resonance-ep3.md
+อัปเดตหมวดคลาสเวท: memory-disruption-field
+
+หมายเหตุ
+ทุกเวทควรถูกอ้างอิงใน magic-README.md เสมอ เพื่อให้ระบบสารบัญของ AI สมบูรณ์
+
+หากเวทมีการเปลี่ยนแปลงผลลัพธ์หรือชื่อ ควรเขียนเวอร์ชันใหม่แล้ว deprecate เวอร์ชันเก่าอย่างชัดเจน
+
 
 ---
 
-## EP3
-
-### Echo Inheritance
-**ประเภท:** เวทสะท้อน / สืบทอดข้อมูล  
-**ไฟล์:** `magic/ep3/echo-inheritance.md`  
-ส่งต่อเสียงสะท้อนและความทรงจำจากเศษผนึกสู่ผู้สืบทอด
+คู่มือนี้จะช่วยให้ทั้งคุณและ AI รุ่นถัดไปสามารถ “ขยายระบบเวท” ได้เรื่อย ๆ แบบไม่สับสนเลยครับ!  
+หากอยากได้เวอร์ชัน `.md` พร้อมจัดโครงสร้างจริง แจ้งได้เลย!
 
 ---
 
-### Echo Pulse (EP3)
-**ประเภท:** เวทขยายพลังสะท้อน  
-**ไฟล์:** `magic/ep3/echo-pulse-ep3.md`  
-เป็นเวทรุ่นพัฒนา ใช้ขยายพลังสะท้อนในระยะไกล พร้อมสื่อสารกับ Fragment
+## I. แยกตามตอน (Episode)
+
+### EP2
+- [echo-pulse-ep2.md](ep2/echo-pulse-ep2.md)
+- [feral-reflection-ep2.md](ep2/feral-reflection-ep2.md)
+- [mirror-seal-ep2.md](ep2/mirror-seal-ep2.md)
+
+### EP3
+- [echo-inheritance.md](ep3/echo-inheritance.md)
+- [echo-pulse-ep3.md](ep3/echo-pulse-ep3.md)
+- [fragment-echo-ep3.md](ep3/fragment-echo-ep3.md)
+- [memory-chain-ep3.md](ep3/memory-chain-ep3.md)
+- [mirror-seal-ep3.md](ep3/mirror-seal-ep3.md)
+- [new-seal-theory-ep3.md](ep3/new-seal-theory-ep3.md)
+- [seal-resonance-ep3.md](ep3/seal-resonance-ep3.md)
+- [seal-resonance-fragment.md](ep3/seal-resonance-fragment.md)
+- [unknown-reaction-ep3.md](ep3/unknown-reaction-ep3.md)
+
+### EP4
+- [echo-fusion.md](ep4/echo-fusion.md)
+- [inheritance-link.md](ep4/inheritance-link.md)
+- [memory-disruption-field.md](ep4/memory-disruption-field.md)
 
 ---
 
-### Fragment Echo
-**ประเภท:** เสียงสะท้อนแตกตัว / พลังสะสม  
-**ไฟล์:** `magic/ep3/fragment-echo-ep3.md`  
-พลังสะท้อนที่แยกตัวออกจากผนึก ใช้ควบรวมกับระบบเวทอื่นเพื่อกระตุ้นการสืบทอด
+## II. แยกตามคลาสของเวท (Class of Magic)
+
+### A. เวทสะท้อน (Echo-Type)
+- echo-pulse-ep2, echo-pulse-ep3, echo-inheritance, fragment-echo-ep3, echo-fusion
+
+### B. เวทผนึก (Seal-Type)
+- mirror-seal-ep2, mirror-seal-ep3, new-seal-theory, seal-resonance, seal-resonance-fragment
+
+### C. เวทความทรงจำ / จิต (Memory & Mind)
+- memory-chain, inheritance-link, memory-disruption-field
+
+### D. เวทก่อกวน / ปฏิกิริยา
+- feral-reflection, unknown-reaction
 
 ---
 
-### Memory Chain
-**ประเภท:** สะสมข้อมูลเวท / โซ่ความทรงจำ  
-**ไฟล์:** `magic/ep3/memory-chain-ep3.md`  
-ระบบเวทที่รวบรวมเสียงสะท้อนไว้เป็นสายโซ่ข้อมูล เชื่อมโยงได้หลายชั้น
+## III. แยกตามรูปแบบการใช้งาน (Usage Type)
 
----
+### 1. เวทโจมตี (Offensive Magic)
+- [feral-reflection-ep2.md](ep2/feral-reflection-ep2.md) – ปลุกพลังจากเงาธรรมชาติ
+- [echo-pulse-ep3.md](ep3/echo-pulse-ep3.md) – ความถี่โจมตีจากเสียงสะท้อน
 
-### Mirror Seal (EP3)
-**ประเภท:** เวทสะท้อนขั้นสูง  
-**ไฟล์:** `magic/ep3/mirror-seal-ep3.md`  
-ผนึกสะท้อนที่สามารถพลิกกลับเวทของเป้าหมาย พร้อมสลายการลวงตา
+### 2. เวทป้องกัน (Defensive Magic)
+- [mirror-seal-ep2.md](ep2/mirror-seal-ep2.md)
+- [mirror-seal-ep3.md](ep3/mirror-seal-ep3.md)
+- [seal-resonance-ep3.md](ep3/seal-resonance-ep3.md)
 
----
+### 3. เวทสนับสนุน (Supportive Magic)
+- [memory-chain-ep3.md](ep3/memory-chain-ep3.md) – เชื่อมความทรงจำในทีม
+- [inheritance-link.md](ep4/inheritance-link.md) – สานพลังผู้สืบทอด
+- [echo-inheritance.md](ep3/echo-inheritance.md) – สะท้อนความสามารถข้ามรุ่น
 
-### New Seal Theory
-**ประเภท:** ทฤษฎีผนึก / การออกแบบโครงสร้างเวทใหม่  
-**ไฟล์:** `magic/ep3/new-seal-theory-ep3.md`  
-แนวคิดการสร้างระบบผนึกใหม่โดยไม่อิง Seal Network ดั้งเดิม
+### 4. เวทฟื้นฟู / บัฟ (Recovery / Buff)
+- [echo-fusion.md](ep4/echo-fusion.md) – รวมพลังเสียงเพื่อฟื้นคืนกำลัง
 
----
+### 5. เวทก่อกวน / ขัดขวาง (Disruption / Debuff)
+- [memory-disruption-field.md](ep4/memory-disruption-field.md)
+- [unknown-reaction-ep3.md](ep3/unknown-reaction-ep3.md)
 
-### Seal Resonance (EP3)
-**ประเภท:** การสั่นพ้องของผนึก  
-**ไฟล์:** `magic/ep3/seal-resonance-ep3.md`  
-แสดงปรากฏการณ์ผนึกโบราณที่เริ่มมีปฏิกิริยาตอบสนองต่อ Echo
-
----
-
-### Seal Resonance Fragment
-**ประเภท:** เศษพลังงานผนึก / การสั่นพ้อง  
-**ไฟล์:** `magic/ep3/seal-resonance-fragment.md`  
-ตัวกลางส่งผ่านข้อมูลเวทที่เหลืออยู่จากการล่มของระบบผนึก
-
----
-
-### Unknown Reaction
-**ประเภท:** ปฏิกิริยาเวทผิดปกติ  
-**ไฟล์:** `magic/ep3/unknown-reaction-ep3.md`  
-ผลลัพธ์จากการปะทะกันของพลังเวทต่างระบบที่ไม่เข้ากัน
-
----
-
-## EP4
-
-### Memory Disruption Field
-**ประเภท:** สนามรบกวนข้อมูลเวท  
-**ไฟล์:** `magic/ep4/memory-disruption-field.md`  
-สนามพลังที่รบกวนการสื่อสารของ Echo และขัดขวางเวทสืบทอดทั้งหมด
-
----
-
-### Inheritance Link  
-**ประเภท:** เวทสืบทอด / เชื่อมโยงโครงสร้างเวท  
-**ไฟล์:** `magic/ep4/inheritance-link.md`  
-เวทชนิดพิเศษที่เชื่อมโยงผู้สืบทอดเข้ากับข้อมูลเวทจากอดีต โดยจะสร้างสายสัมพันธ์ถาวรกับเสียงสะท้อนที่ยอมรับผู้ใช้
-
----
-
-### Echo Fusion  
-**ประเภท:** เวทรวมเสียงสะท้อน / การควบรวมพลังเวท  
-**ไฟล์:** `magic/ep4/echo-fusion.md`  
-เวทต้นแบบที่รวมเสียงสะท้อนจากหลายแหล่งให้กลายเป็นพลังเวทชนิดใหม่เฉพาะตัว สามารถสร้างผลสะท้อนย้อนกลับในระดับโครงสร้าง
+### 6. เวทฟังก์ชันพิเศษ (Utility / Unique Function)
+- [new-seal-theory-ep3.md](ep3/new-seal-theory-ep3.md)
+- [seal-resonance-fragment.md](ep3/seal-resonance-fragment.md)
+- [fragment-echo-ep3.md](ep3/fragment-echo-ep3.md)
 
 ---
 
 ## หมายเหตุ
-
-- ทุกเวทมีไฟล์ `.md` ของตัวเองใน `magic/epX/`  
-- ใช้ชื่อเวทเป็นภาษาอังกฤษเพื่อความสอดคล้อง แต่คำอธิบายภาษาไทยเพื่อความเข้าใจ  
-- ไฟล์นี้จะถูกอัปเดตเมื่อมีเวทใหม่ใน EP ถัดไป
+- เวทหลายชนิดอาจอยู่ได้มากกว่า 1 ประเภท เช่น สนับสนุนและฟังก์ชันพิเศษ
+- การระบุ usage ช่วยให้ AI สร้าง encounter หรือระบบต่อสู้ได้ตรงประเภทมากขึ้น
+- โปรดเพิ่มลิงก์ทั้งใน EP, Class และ Usage ทุกครั้งเมื่อมีเวทใหม่
