@@ -1,3 +1,4 @@
+---
 context_index:
   characters:
     silent-fortune:
@@ -92,11 +93,13 @@ context_index:
       - file: characters/story/ep3
         name: Ep3
         summary: กรุณาใส่สรุปตัวละครที่นี่
-
   context-ai:
     checklist:
       - context-ai-checklist.yaml
       - context-ai-checklist-notify.yaml
+    checklist_files:
+      - context-ai-checklist-notify.yaml
+      - context-ai-checklist.yaml
     guide: context-ai.md
     guide_cleaned: context-ai-cleaned.md
   magic:
@@ -116,7 +119,7 @@ context_index:
     template: templates/structure-template.md
     schema: schemas/validate-schema-structure.yaml
     episode_schema: story/validate-schema-episode-readme.yaml
-    readme: story/story-README.md  
+    readme: story/story-README.md
   worldbuilding:
     readme: worldbuilding/worldbuilding-README.md
     index: worldbuilding-index.yaml
@@ -126,17 +129,17 @@ context_index:
     schema: validate-schema-worldbuilding.yaml
     version: 1.1
     type: categorized-worldbuilding
-    usage: category → file-list → class-tag → context-link    
+    usage: category → file-list → class-tag → context-link
   world-anchor-map:
     file: worldbuilding/maps/world-anchor-map.yaml
     type: anchor-map
     target: worldbuilding
     usage: keyword → worldbuilding path
-    version: 1.0
-        
+    version: 1
 metadata:
   auto-parsable: true
-  description: ศูนย์รวมเส้นทางอ้างอิง context ของระบบ AI เพื่อให้เข้าถึงข้อมูลอย่างแม่นยำและรวดเร็ว
+  description: ศูนย์รวมเส้นทางอ้างอิง context ของระบบ AI
+    เพื่อให้เข้าถึงข้อมูลอย่างแม่นยำและรวดเร็ว
   project: Farming War
   type: context-ai-index
-  version: '1.0'
+  version: "1.0"
