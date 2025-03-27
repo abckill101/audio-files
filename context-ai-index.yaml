@@ -1,5 +1,6 @@
 context_index:
   characters:
+  silent-fortune:
   - file: characters/arvel-feldman.md
     name: Arvel Feldman
     summary: นักแม่นธนูเงียบขรึม ผู้เชี่ยวชาญการลอบโจมตีและแกะรอยในป่า
@@ -45,7 +46,7 @@ context_index:
   - file: characters/serena-whiteford.md
     name: Serena Whiteford
     summary: นักเวทน้ำแข็งผู้ควบคุมสนามรบด้วยความเยือกเย็นและแม่นยำ
-enemy:
+  enemy:
   - file: characters/enemy/zargos-werth.md
     name: Zargos Werth
     summary: กรุณาใส่สรุปตัวละครที่นี่
@@ -58,8 +59,7 @@ enemy:
   - file: characters/enemy/nigel-darkraven.md
     name: Nigel Darkraven
     summary: กรุณาใส่สรุปตัวละครที่นี่
-
-npc:
+  npc:
   - file: characters/npc/elrys-memory.md
     name: Elrys Memory
     summary: กรุณาใส่สรุปตัวละครที่นี่
