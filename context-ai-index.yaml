@@ -4,6 +4,55 @@ context_index:
     readme: characters/characters-README.md
     schema: schemas/validate-schema-character.yaml
     template: templates/character-template.md
+    silent_fortune:
+  - file: characters/silent-fortune/aila-vendarin.md
+    name: Aila Vendarin
+    summary: กรุณาใส่สรุปตัวละครที่นี่
+  - file: characters/silent-fortune/arvel-feldman.md
+    name: Arvel Feldman
+    summary: กรุณาใส่สรุปตัวละครที่นี่
+  - file: characters/silent-fortune/aviana-orelia.md
+    name: Aviana Orelia
+    summary: กรุณาใส่สรุปตัวละครที่นี่
+  - file: characters/silent-fortune/beren-stonecook.md
+    name: Beren Stonecook
+    summary: กรุณาใส่สรุปตัวละครที่นี่
+  - file: characters/silent-fortune/finn-wildcard.md
+    name: Finn Wildcard
+    summary: กรุณาใส่สรุปตัวละครที่นี่
+  - file: characters/silent-fortune/graf-bloodbrand.md
+    name: Graf Bloodbrand
+    summary: กรุณาใส่สรุปตัวละครที่นี่
+  - file: characters/silent-fortune/isaac-nocturne.md
+    name: Isaac Nocturne
+    summary: กรุณาใส่สรุปตัวละครที่นี่
+  - file: characters/silent-fortune/kael-thorne.md
+    name: Kael Thorne
+    summary: กรุณาใส่สรุปตัวละครที่นี่
+  - file: characters/silent-fortune/kline-fendrix.md
+    name: Kline Fendrix
+    summary: กรุณาใส่สรุปตัวละครที่นี่
+  - file: characters/silent-fortune/lucia-blackwood.md
+    name: Lucia Blackwood
+    summary: กรุณาใส่สรุปตัวละครที่นี่
+  - file: characters/silent-fortune/lyla-fortune.md
+    name: Lyla Fortune
+    summary: กรุณาใส่สรุปตัวละครที่นี่
+  - file: characters/silent-fortune/maria_luna.md
+    name: Maria Luna
+    summary: กรุณาใส่สรุปตัวละครที่นี่
+  - file: characters/silent-fortune/orphea-stringheart.md
+    name: Orphea Stringheart
+    summary: กรุณาใส่สรุปตัวละครที่นี่
+  - file: characters/silent-fortune/rudy-gearwright.md
+    name: Rudy Gearwright
+    summary: กรุณาใส่สรุปตัวละครที่นี่
+  - file: characters/silent-fortune/serena-whiteford.md
+    name: Serena Whiteford
+    summary: กรุณาใส่สรุปตัวละครที่นี่
+  - file: characters/silent-fortune/seril-wenston.md
+    name: Seril Wenston
+    summary: กรุณาใส่สรุปตัวละครที่นี่
   context-ai:
   checklist:
     - context-ai-checklist.yaml
