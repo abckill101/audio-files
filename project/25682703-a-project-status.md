@@ -30,29 +30,29 @@ title: สถานะโปรเจกต์ประจำวัน – 27 �
 - [ ] Priest of Resonance (ยังไม่มีเอกสาร)
 
 ## 🧭 สถานที่ที่ถูกใช้งานในบทนี้
-- [x] Echo Ravine (`worldbuilding/locations/ep5/echo-ravine.md`)
-- [x] Voltier Town (`worldbuilding/locations/ep5/voltier-town.md`)
-- [ ] Festival Grounds (`worldbuilding/locations/ep5/festival-grounds.md`)
-- [ ] Echo Memory Shrine (`worldbuilding/locations/ep5/echo-memory-shrine.md`)
+- [x] Echo Ravine (`worldbuilding/locations/ep5/echo-ravine.md`) (ยังไม่มีเอกสาร)
+- [x] Voltier Town (`worldbuilding/locations/ep5/voltier-town.md`) (ยังไม่มีเอกสาร)
+- [ ] Festival Grounds (`worldbuilding/locations/ep5/festival-grounds.md`) (ยังไม่มีเอกสาร)
+- [ ] Echo Memory Shrine (`worldbuilding/locations/ep5/echo-memory-shrine.md`) (ยังไม่มีเอกสาร)
 
 ---
 
 ## ✨ เวทมนตร์ / พลัง / ทักษะที่ปรากฏในบทนี้
 
 - [x] Echo Fusion (`magic/ep4/echo-fusion.md`)
-- [x] Cooking Bond (`magic/ep5/cooking-bond.md`)
-- [x] Melody Resonance (`magic/ep5/melody-resonance.md`)
+- [ ] Cooking Bond (`magic/ep5/cooking-bond.md`) (ยังไม่มีเอกสาร) 
+- [ ] Melody Resonance (`magic/ep5/melody-resonance.md`) (ยังไม่มีเอกสาร)
 - [ ] Passive Whispering (ยังไม่มีเอกสาร)
 - [ ] Echo Field Scan (ยังไม่มีเอกสาร)
 
 ## 🧩 เควสที่เกี่ยวข้องกับ EP5 (พร้อมใช้งาน / ขาด)
 
-- [x] quest-echo-hunt.md
-- [ ] quest-festival-flavors.md
-- [ ] quest-missing-in-melody.md
-- [ ] quest-dinner-harmony.md
-- [ ] quest-rhythm-of-light.md
-- [ ] quest-harvest-of-echo-bloom.md
+- [x] quest-echo-hunt.md (`"quests/ep4/quest-echo-hunt.md"`)  
+- [ ] quest-festival-flavors.md (ยังไม่มีเอกสาร)
+- [ ] quest-missing-in-melody.md (ยังไม่มีเอกสาร)
+- [ ] quest-dinner-harmony.md (ยังไม่มีเอกสาร)
+- [ ] quest-rhythm-of-light.md (ยังไม่มีเอกสาร)
+- [ ] quest-harvest-of-echo-bloom.md (ยังไม่มีเอกสาร)
 
 ## 🧠 Context สำคัญที่ต้องส่งต่อ
 
