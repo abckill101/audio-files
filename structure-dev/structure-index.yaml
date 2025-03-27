@@ -21,7 +21,7 @@ episodes:
     structure_file: ep3/ep3-structure.md
     readme: ep3/ep3-README.md
     story_path: story/ep3/
-    status: writing
+    status: complete
     main_theme: sealed-legacy
     main_location: seal-network-labyrinth
     expected_pages: 60
@@ -32,7 +32,7 @@ episodes:
     structure_file: ep4/ep4-structure.md
     readme: ep4/ep4-README.md
     story_path: story/ep4/
-    status: planning
-    main_theme: inheritance-echo
+    status: complete
+    main_theme: inner-echo-chamber / threshold-gate
     main_location: inner-seal-core
     expected_pages: 60
