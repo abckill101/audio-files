@@ -1,53 +1,37 @@
----
-team_id: silent-fortune
-type: npc-group
-player_related: indirect
-main_character: kline-fendrix
-native_world: orthia
-faction: independent
----
+<!--
+type: character-subindex
+group: silent-fortune
+auto-parsable: true
+source-path: characters/silent-fortune/
+-->
 
-# Silent Fortune – ทีมหลักของนิยาย *Farming War*
+# รายชื่อตัวละครทีม Silent Fortune
 
-**Silent Fortune** คือทีมผจญภัยหลักที่ดำเนินเรื่องในนิยาย *Farming War* โดยมี **ไคลน์ เฟนดริกซ์** (Kline Fendrix) เป็นหัวใจสำคัญของกลุ่ม แม้เขาจะไม่ใช่ผู้เล่นจากต่างโลก แต่เขาคือผู้ขับเคลื่อนหลักของเนื้อหาในโลกออร์เทีย (Orthia)
-
----
-
-## บทบาทของทีม Silent Fortune
-- เป็นกลุ่มนักล่าและฟาร์มเมอร์ระดับกลาง-สูง
-- มีเป้าหมายในการเอาชีวิตรอด ฟาร์มทรัพยากร และไขปริศนาโลก
-- เชื่อมโยงโดยตรงกับระบบเวท, ผนึก, เงา และเศษความทรงจำใน EP3
+เอกสารนี้เป็นดัชนีย่อยของทีม Silent Fortune ซึ่งเป็นทีมหลักของไคลน์ในนิยาย *Farming War*  
+ใช้สำหรับเชื่อมโยงตัวละครทั้งหมดในทีม พร้อมสำหรับระบบ AI indexing และการจัดการข้อมูลตัวละคร
 
 ---
 
-## สมาชิกหลัก
+## สมาชิกทีม Silent Fortune
 
-### 1. **ไคลน์ เฟนดริกซ์ (Kline Fendrix)**
-- สถานะ: ตัวละครหลัก (World-native Protagonist)
-- ไม่ใช่ผู้เล่นต่างโลก / ไม่ใช่ Player Character
-- พลังล่าสุด: ผสาน Fragment Echo + Memory Chain → Seal Resonance
-
-(อ่านเพิ่มเติม: [kline-fendrix.md](./kline-fendrix.md))
+- [aila-vendarin.md](aila-vendarin.md)
+- [arvel-feldman.md](arvel-feldman.md)
+- [aviana-orelia.md](aviana-orelia.md)
+- [beren-stonecook.md](beren-stonecook.md)
+- [finn-wildcard.md](finn-wildcard.md)
+- [graf-bloodbrand.md](graf-bloodbrand.md)
+- [isaac-nocturne.md](isaac-nocturne.md)
+- [kael-thorne.md](kael-thorne.md)
+- [kline-fendrix.md](kline-fendrix.md)
+- [lucia-blackwood.md](lucia-blackwood.md)
+- [lyla-fortune.md](lyla-fortune.md)
+- [maria_luna.md](maria_luna.md)
+- [orphea-stringheart.md](orphea-stringheart.md)
+- [rudy-gearwright.md](rudy-gearwright.md)
+- [serena-whiteford.md](serena-whiteford.md)
+- [seril-wenston.md](seril-wenston.md)
 
 ---
 
-## หมายเหตุสำคัญ
-
-- ไคลน์เป็น “NPC โลกเดิม” ที่ถูกวางบทให้เป็นศูนย์กลางของกลไกระบบเวทและการฟื้นคืนของพลังโบราณ
-- แม้ไม่ใช่ผู้เล่น แต่มีความสามารถในการพัฒนาเทียบเท่าผู้เล่นผ่าน "การบริหารไอเท็มและระบบฟาร์ม"
-- ใน EP3 เขาเริ่มแสดงศักยภาพของผู้สืบทอดระบบผนึกเก่าใน Inner Seal Core
-
----
-
-## เชื่อมโยง
-- ตัวละครอื่นจะถูกเพิ่มในภายหลัง (เช่น เฟย์, เซย์, ฯลฯ)
-- ไฟล์ในโฟลเดอร์นี้จะอัปเดตตามพัฒนาการของเนื้อเรื่อง
-
-## ความสัมพันธ์กับ Player
-
-แม้ทีม Silent Fortune จะไม่มี Player อยู่ในทีม  
-แต่พวกเขาคือกลุ่ม NPC ระดับสูงที่มีบทบาทต่อเส้นเรื่องของ **กนกวรรณ สาริศา** โดยเฉพาะในเชิงอ้อม เช่น การเฝ้าระวังพื้นที่สำคัญ, สัมผัสพลังผิดปกติที่กระทบกับโครงสร้างโลก และมีโอกาสปะทะหรือร่วมมือในอนาคต
-
-ไคลน์ โดยเฉพาะ จะเป็น "สมดุลตรงข้าม" ทางจิตวิญญาณกับผู้เล่น  
-แต่ไม่ได้มีความทรงจำหรือระบบแบบเดียวกับเธอ
+> หมายเหตุ: ตัวละครทั้งหมดนี้สามารถเชื่อมโยงกับระบบ worldbuilding, quest และเวทมนตร์ได้โดยตรงผ่าน `WSP-Character-Intro`
 

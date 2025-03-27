@@ -155,7 +155,7 @@ source-path: characters/
 - [nigel-darkraven.md](enemy/nigel-darkraven.md)
 - [rex-flameheart.md](enemy/rex-flameheart.md)
 - [victor-falkner.md](enemy/victor-falkner.md)
-- [zargos_werth.md](enemy/zargos_werth.md)
+- [zargos-werth.md](enemy/zargos_werth.md)
 
 ---
 
