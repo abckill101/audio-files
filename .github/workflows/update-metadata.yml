@@ -1,0 +1,40 @@
+name: Update Metadata Anchors
+
+on:
+  push:
+    paths:
+      - 'characters/characters-README.md'
+  workflow_dispatch:
+
+jobs:
+  update-metadata:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Update metadata block
+        run: |
+          FILE="characters/characters-README.md"
+
+          TEMPLATE_LINE='<!-- character-template-source: templates/character-template.md -->'
+          SCHEMA_LINE='<!-- validate-schema-source: schemas/validate-schema-character.yaml -->'
+
+          # ตรวจสอบว่ามี metadata block หรือยัง
+          if grep -q '<!--' "$FILE"; then
+            # แทรก anchor ถ้ายังไม่มี
+            grep -q "$TEMPLATE_LINE" "$FILE" || sed -i "/-->/a $TEMPLATE_LINE" "$FILE"
+            grep -q "$SCHEMA_LINE" "$FILE" || sed -i "/-->/a $SCHEMA_LINE" "$FILE"
+          else
+            echo "ไม่พบ metadata block ใน $FILE"
+            exit 1
+          fi
+
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add characters/characters-README.md
+          git commit -m "🔧 Auto: Add metadata anchors to characters-README.md" || echo "No changes to commit"
+          git push

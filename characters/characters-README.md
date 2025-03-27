@@ -26,6 +26,9 @@ source-path: characters/
 
 ---
 
+<!-- character-template-source: templates/character-template.md -->
+<!-- validate-schema-source: schemas/validate-schema-character.yaml -->
+
 ### 1. โครงสร้างไฟล์ตัวละคร
 
 - เก็บไว้ภายใต้โฟลเดอร์ `characters/`
