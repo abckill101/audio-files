@@ -1,12 +1,256 @@
-
 characters:
-  silent-fortune: [kline-fendrix, aila-vendarin, arvel-feldman, aviana-orelia, beren-stonecook, finn-wildcard, graf-bloodbrand, isaac-nocturne, kael-thorne, lucia-blackwood, lyla-fortune, maria_luna, orphea-stringheart, rudy-gearwright, serena-whiteford, seril-wenston]                                     
-  npc: [elrys-memory, marek-kozlowski, thuren-boundary, verel-drystrom]
-  enemy: [nigel-darkraven, rex-flameheart, victor-falkner, zargos_werth]
-  player: [kanokwan-sarisa]
-  story:
-  ep1: [kline-fendrix, kanokwan-sarisa, aviana-orelia]
-  ep2: [kline-fendrix, elrys-memory, marek-kozlowski]
-  ep3: [kline-fendrix, kanokwan-sarisa, thuren-boundary] 
-  ep4: [kline-fendrix, kanokwan-sarisa, elrys-memory, thuren-boundary, isaac-nocturne]
-
+- episodes: []
+  file: silent-fortune/aila-vendarin.md
+  group: silent-fortune
+  id: aila-vendarin
+  name: ไอลา เวนดาริน
+  role: support
+  template_id: character-template
+- episodes: []
+  file: silent-fortune/arvel-feldman.md
+  group: silent-fortune
+  id: arvel-feldman
+  name: อาร์เวล เฟลด์แมน
+  role: support
+  template_id: character-template
+- episodes:
+  - 1
+  file: silent-fortune/aviana-orelia.md
+  group: silent-fortune
+  id: aviana-orelia
+  name: เอเวียน่า โอเรเลีย
+  role: support
+  template_id: character-template
+- episodes: []
+  file: silent-fortune/beren-stonecook.md
+  group: silent-fortune
+  id: beren-stonecook
+  name: เบเร็น สโตนครุก
+  role: support
+  template_id: character-template
+- episodes:
+  - 2
+  - 4
+  file: npc/elrys-memory.md
+  group: npc
+  id: elrys-memory
+  name: เอลริสแห่งความทรงจำ
+  related_to:
+  - thuren-boundary
+  role: npc
+  template_id: character-template
+- episodes: []
+  file: silent-fortune/finn-wildcard.md
+  group: silent-fortune
+  id: finn-wildcard
+  name: ฟินน์ ไวลด์การ์ด
+  role: support
+  template_id: character-template
+- episodes: []
+  file: silent-fortune/graf-bloodbrand.md
+  group: silent-fortune
+  id: graf-bloodbrand
+  name: กราฟ บลัดแบรนด์
+  role: support
+  template_id: character-template
+- episodes:
+  - 4
+  file: silent-fortune/isaac-nocturne.md
+  group: silent-fortune
+  id: isaac-nocturne
+  name: ไอแซค น็อกเทิร์น
+  related_to:
+  - kline-fendrix
+  - isaac-nocturne-alt
+  role: support
+  template_id: character-template
+- episodes: []
+  file: silent-fortune/kael-thorne.md
+  group: silent-fortune
+  id: kael-thorne
+  name: คาเอล ธอร์น
+  role: support
+  template_id: character-template
+- episodes:
+  - 1
+  - 3
+  - 4
+  file: player/kanokwan-sarisa.md
+  group: player
+  id: kanokwan-sarisa
+  name: กนกวรรณ สาริษา
+  related_to:
+  - kline-fendrix
+  role: isekai
+  template_id: character-template
+- episodes:
+  - 1
+  - 2
+  - 3
+  - 4
+  file: silent-fortune/kline-fendrix.md
+  group: silent-fortune
+  id: kline-fendrix
+  name: ไคลน์ เฟนดริกซ์
+  related_to:
+  - maria-luna
+  - kanokwan-sarisa
+  - isaac-nocturne
+  role: support
+  template_id: character-template
+- episodes: []
+  file: silent-fortune/lucia-blackwood.md
+  group: silent-fortune
+  id: lucia-blackwood
+  name: ลูเซีย แบล็ควูด
+  role: support
+  template_id: character-template
+- episodes: []
+  file: silent-fortune/lyla-fortune.md
+  group: silent-fortune
+  id: lyla-fortune
+  name: ไลลา ฟอร์จูน
+  role: support
+  template_id: character-template
+- episodes:
+  - 2
+  file: npc/marek-kozlowski.md
+  group: npc
+  id: marek-kozlowski
+  name: มาเร็ก คอซลอฟสกี้
+  role: npc
+  template_id: character-template
+- episodes: []
+  file: silent-fortune/maria_luna.md
+  group: silent-fortune
+  id: maria-luna
+  name: มาเรีย ลูน่า
+  related_to:
+  - kline-fendrix
+  - serena-whiteford
+  role: support
+  template_id: character-template
+- episodes:
+  - 2
+  file: story/ep2/maria-luna-alt.md
+  group: story/ep2
+  id: maria-luna-alt
+  name: มาเรีย ลูน่า (เวอร์ชันสะท้อน)
+  related_to:
+  - maria-luna
+  role: unknown
+  template_id: character-template
+- episodes: []
+  file: enemy/nigel-darkraven.md
+  group: enemy
+  id: nigel-darkraven
+  name: ไนเจล ดาร์คเรเวน
+  role: enemy
+  template_id: character-template
+- episodes: []
+  file: silent-fortune/orphea-stringheart.md
+  group: silent-fortune
+  id: orphea-stringheart
+  name: ออร์เฟีย สตริงฮาร์ต
+  role: support
+  template_id: character-template
+- episodes: []
+  file: enemy/rex-flameheart.md
+  group: enemy
+  id: rex-flameheart
+  name: เร็กซ์ เฟลมฮาร์ต
+  role: enemy
+  template_id: character-template
+- episodes: []
+  file: silent-fortune/rudy-gearwright.md
+  group: silent-fortune
+  id: rudy-gearwright
+  name: รูดี้ เกียร์ไรต์
+  role: support
+  template_id: character-template
+- episodes: []
+  file: silent-fortune/serena-whiteford.md
+  group: silent-fortune
+  id: serena-whiteford
+  name: เซรีน่า ไวท์ฟอร์ด
+  role: support
+  template_id: character-template
+- episodes: []
+  file: silent-fortune/seril-wenston.md
+  group: silent-fortune
+  id: seril-wenston
+  name: เซริล เวนสตัน
+  role: support
+  template_id: character-template
+- episodes:
+  - 3
+  - 4
+  file: npc/thuren-boundary.md
+  group: npc
+  id: thuren-boundary
+  name: ธูเรนแห่งขอบผนึก
+  related_to:
+  - elrys-memory
+  role: npc
+  template_id: character-template
+- episodes: []
+  file: npc/verel-drystrom.md
+  group: npc
+  id: verel-drystrom
+  name: เวเรล ดรายสตรอม
+  role: npc
+  template_id: character-template
+- episodes: []
+  file: enemy/victor-falkner.md
+  group: enemy
+  id: victor-falkner
+  name: วิคเตอร์ ฟอล์คนเนอร์
+  role: enemy
+  template_id: character-template
+- episodes: []
+  file: enemy/zargos_werth.md
+  group: enemy
+  id: zargos-werth
+  name: ซาร์กอส เวิร์ธ
+  role: enemy
+  template_id: character-template
+- episodes:
+  - 2
+  file: story/ep2/echo-phantom-prototype.md
+  group: story/ep2
+  id: echo-phantom-prototype
+  name: อีโค แฟนธ่อม (ต้นแบบ)
+  role: unknown
+  template_id: character-template
+- episodes:
+  - 2
+  file: story/ep2/guardian-of-reflection.md
+  group: story/ep2
+  id: guardian-of-reflection
+  name: ผู้พิทักษ์แห่งภาพสะท้อน
+  role: unknown
+  template_id: character-template
+- episodes:
+  - 2
+  file: story/ep2/isaac-nocturne-alt.md
+  group: story/ep2
+  id: isaac-nocturne-alt
+  name: ไอแซค น็อกเทิร์น (เวอร์ชันพิเศษ)
+  related_to:
+  - isaac-nocturne
+  role: unknown
+  template_id: character-template
+- episodes:
+  - 3
+  file: story/ep3/kline-fendrix-ep3.md
+  group: story/ep3
+  id: kline-fendrix-ep3
+  name: ไคลน์ เฟนดริกซ์ (เวอร์ชัน EP3)
+  role: unknown
+  template_id: character-template
+metadata:
+  auto-parsable: true
+  format: group + episode + object-list
+  source-path: characters/
+  type: structured-character-index
+  version: '1.1'

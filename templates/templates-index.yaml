@@ -1,0 +1,65 @@
+metadata:
+  auto-parsable: true
+  source-path: templates/
+  type: template-index
+templates:
+- file: templates/README.md
+  for: unknown
+  format: markdown
+  id: README
+  usage: ''
+- file: templates/WSP-Character-Intro.md
+  for: unknown
+  format: markdown
+  id: WSP-Character-Intro
+  usage: ''
+- file: templates/dek-d-episode-template.md
+  for: episode
+  format: markdown
+  id: dek-d-episode-template
+  usage: ใช้สำหรับเขียน metadata ของตอนเนื้อเรื่อง เช่น title, chapter, characters
+- file: templates/episode-metadata-template.md
+  for: episode
+  format: markdown
+  id: episode-metadata-template
+  usage: ใช้สำหรับเขียน metadata ของตอนเนื้อเรื่อง เช่น title, chapter, characters
+- file: templates/farming-war-chapter-template.md
+  for: unknown
+  format: markdown
+  id: farming-war-chapter-template
+  usage: ''
+- file: templates/farming-war-episode-metadata.yaml
+  for: episode
+  format: yaml
+  id: farming-war-episode-metadata
+  usage: ใช้สำหรับเขียน metadata ของตอนเนื้อเรื่อง เช่น title, chapter, characters
+- file: templates/item-template.md
+  for: unknown
+  format: markdown
+  id: item-template
+  usage: ''
+- file: templates/location-template.md
+  for: unknown
+  format: markdown
+  id: location-template
+  usage: ''
+- file: templates/monster-name.md
+  for: monster
+  format: markdown
+  id: monster-name
+  usage: ใช้สำหรับสร้างข้อมูลมอนสเตอร์ในระบบ เช่น ระดับ, พฤติกรรม, การดรอป
+- file: templates/quest-template.md
+  for: quest
+  format: markdown
+  id: quest-template
+  usage: ใช้สำหรับออกแบบเควสในเรื่อง พร้อมโครงสร้างเป้าหมาย, รางวัล, เงื่อนไข
+- file: templates/spell-template.md
+  for: unknown
+  format: markdown
+  id: spell-template
+  usage: ''
+- file: templates/test.md
+  for: unknown
+  format: markdown
+  id: test
+  usage: ''

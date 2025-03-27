@@ -1,0 +1,19 @@
+metadata:
+  auto-parsable: true
+  for: magic-template
+  target: magic/
+  type: validate-schema
+optional_fields:
+- element
+- origin
+- combination
+- keywords
+- status
+required_fields:
+- id
+- name
+- file
+- class
+- spell_level
+- description
+- ep

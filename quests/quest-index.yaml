@@ -1,0 +1,59 @@
+metadata:
+  auto-parsable: true
+  source-path: quests/
+  type: quest-index
+quests:
+- ep: 1
+  file: quests/ep1/quest-lowerzone-scout.md
+  id: quest-lowerzone-scout
+  name: Quest Lowerzone Scout
+  rank: C
+  type: scout
+- ep: 1
+  file: quests/ep1/quest-shadow-patrol.md
+  id: quest-shadow-patrol
+  name: Quest Shadow Patrol
+  rank: C
+  type: patrol
+- ep: 1
+  file: quests/ep1/quest-weave-trace.md
+  id: quest-weave-trace
+  name: Quest Weave Trace
+  rank: C
+  type: investigation
+- ep: 3
+  file: quests/ep3/quest-awakening-echo-ep3.md
+  id: quest-awakening-echo-ep3
+  name: Quest Awakening Echo Ep3
+  rank: B
+  type: special
+- ep: 2
+  file: quests/quest-abandoned-warehouse.md
+  id: quest-abandoned-warehouse
+  name: Quest Abandoned Warehouse
+  rank: C
+  type: investigation
+- ep: 1
+  file: quests/quest-blaze-bee-scout.md
+  id: quest-blaze-bee-scout
+  name: Quest Blaze Bee Scout
+  rank: D
+  type: scout
+- ep: 1
+  file: quests/quest-boom-mushroom.md
+  id: quest-boom-mushroom
+  name: Quest Boom Mushroom
+  rank: D
+  type: gathering
+- ep: 1
+  file: quests/quest-collect-beast-materials.md
+  id: quest-collect-beast-materials
+  name: Quest Collect Beast Materials
+  rank: C
+  type: gathering
+- ep: 1
+  file: quests/quest-shadow-rat.md
+  id: quest-shadow-rat
+  name: Quest Shadow Rat
+  rank: D
+  type: hunt

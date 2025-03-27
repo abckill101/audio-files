@@ -1,3 +1,10 @@
+# type: episode-plan
+# ep: 3
+# contains: [episode_id, theme, characters, spells, setting]
+# structure: structured-list
+# auto-parsable: true
+# source-path: structure-dev/ep3/
+
 ---
 episodes:
   - episode_id: ep3-11

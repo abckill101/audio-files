@@ -1,0 +1,38 @@
+# structure-index.yaml
+# type: episode-structure-index
+# auto-parsable: true
+# source-path: structure-dev/
+
+episodes:
+  - ep: 2
+    title: "บทที่ 2: เงาที่กลับมาพร้อมผู้ตื่นรู้"
+    plan_file: ep2/ep2-episodes.yaml
+    structure_file: ep2/ep2-structure.md
+    readme: ep2/ep2-README.md
+    story_path: story/ep2/
+    status: completed
+    main_theme: awakening-shadow
+    main_location: city-of-vaults
+    expected_pages: 50
+
+  - ep: 3
+    title: "บทที่ 3: มรดกแห่งห้วงผนึก"
+    plan_file: ep3/ep3-episodes.yaml
+    structure_file: ep3/ep3-structure.md
+    readme: ep3/ep3-README.md
+    story_path: story/ep3/
+    status: writing
+    main_theme: sealed-legacy
+    main_location: seal-network-labyrinth
+    expected_pages: 60
+
+  - ep: 4
+    title: "บทที่ 4: ผู้สืบทอดที่ตื่นรู้"
+    plan_file: ep4/ep4-episodes.yaml
+    structure_file: ep4/ep4-structure.md
+    readme: ep4/ep4-README.md
+    story_path: story/ep4/
+    status: planning
+    main_theme: inheritance-echo
+    main_location: inner-seal-core
+    expected_pages: 60

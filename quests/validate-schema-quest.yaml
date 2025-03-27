@@ -1,0 +1,17 @@
+metadata:
+  auto-parsable: true
+  for: quest-template
+  target: quests/
+  type: validate-schema
+optional_fields:
+- objective
+- reward
+- client
+- status
+required_fields:
+- id
+- name
+- file
+- type
+- rank
+- ep

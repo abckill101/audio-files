@@ -1,0 +1,18 @@
+metadata:
+  auto-parsable: true
+  for: character-template
+  target: characters/
+  type: validate-schema
+optional_fields:
+- related_to
+- status
+- origin
+- alignment
+required_fields:
+- id
+- name
+- group
+- file
+- episodes
+- role
+- template_id
