@@ -136,6 +136,8 @@ context_index:
     target: worldbuilding
     usage: keyword → worldbuilding path
     version: 1
+  character-magic-link:
+    ep5: context-ai/links/magic-character-links-ep5.yaml
 metadata:
   auto-parsable: true
   description: ศูนย์รวมเส้นทางอ้างอิง context ของระบบ AI
