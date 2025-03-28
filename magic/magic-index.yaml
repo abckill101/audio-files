@@ -1,116 +1,152 @@
 magic:
-- class: ''
-  description: ''
-  ep: 2
-  file: magic/ep2/echo-pulse-ep2.md
-  id: echo-pulse-ep2
-  name: Echo Pulse Ep2
-  spell_level: ''
-- class: ''
-  description: ''
-  ep: 2
-  file: magic/ep2/feral-reflection-ep2.md
-  id: feral-reflection-ep2
-  name: Feral Reflection Ep2
-  spell_level: ''
-- class: ''
-  description: ''
-  ep: 2
-  file: magic/ep2/mirror-seal-ep2.md
-  id: mirror-seal-ep2
-  name: Mirror Seal Ep2
-  spell_level: ''
-- class: ''
-  description: ''
-  ep: 3
-  file: magic/ep3/echo-inheritance.md
-  id: echo-inheritance
-  name: Echo Inheritance
-  spell_level: ''
-- class: ''
-  description: ''
-  ep: 3
-  file: magic/ep3/echo-pulse-ep3.md
-  id: echo-pulse-ep3
-  name: Echo Pulse Ep3
-  spell_level: ''
-- class: ''
-  description: ''
-  ep: 3
-  file: magic/ep3/fragment-echo-ep3.md
-  id: fragment-echo-ep3
-  name: Fragment Echo Ep3
-  spell_level: ''
-- class: ''
-  description: ''
-  ep: 3
-  file: magic/ep3/magic-ep3-README.md
-  id: magic-ep3-README
-  name: Magic Ep3 Readme
-  spell_level: ''
-- class: ''
-  description: ''
-  ep: 3
-  file: magic/ep3/memory-chain-ep3.md
-  id: memory-chain-ep3
-  name: Memory Chain Ep3
-  spell_level: ''
-- class: ''
-  description: ''
-  ep: 3
-  file: magic/ep3/mirror-seal-ep3.md
-  id: mirror-seal-ep3
-  name: Mirror Seal Ep3
-  spell_level: ''
-- class: ''
-  description: ''
-  ep: 3
-  file: magic/ep3/new-seal-theory-ep3.md
-  id: new-seal-theory-ep3
-  name: New Seal Theory Ep3
-  spell_level: ''
-- class: ''
-  description: ''
-  ep: 3
-  file: magic/ep3/seal-resonance-ep3.md
-  id: seal-resonance-ep3
-  name: Seal Resonance Ep3
-  spell_level: ''
-- class: ''
-  description: ''
-  ep: 3
-  file: magic/ep3/seal-resonance-fragment.md
-  id: seal-resonance-fragment
-  name: Seal Resonance Fragment
-  spell_level: ''
-- class: ''
-  description: ''
-  ep: 3
-  file: magic/ep3/unknown-reaction-ep3.md
-  id: unknown-reaction-ep3
-  name: Unknown Reaction Ep3
-  spell_level: ''
-- class: ''
-  description: ''
-  ep: 4
-  file: magic/ep4/echo-fusion.md
-  id: echo-fusion
-  name: Echo Fusion
-  spell_level: ''
-- class: ''
-  description: ''
-  ep: 4
-  file: magic/ep4/inheritance-link.md
-  id: inheritance-link
-  name: Inheritance Link
-  spell_level: ''
-- class: ''
-  description: ''
-  ep: 4
-  file: magic/ep4/memory-disruption-field.md
-  id: memory-disruption-field
-  name: Memory Disruption Field
-  spell_level: ''
+  - class: ''
+    description: ''
+    ep: 2
+    file: magic/ep2/echo-pulse-ep2.md
+    id: echo-pulse-ep2
+    name: Echo Pulse Ep2
+    spell_level: ''
+  - class: ''
+    description: ''
+    ep: 2
+    file: magic/ep2/feral-reflection-ep2.md
+    id: feral-reflection-ep2
+    name: Feral Reflection Ep2
+    spell_level: ''
+  - class: ''
+    description: ''
+    ep: 2
+    file: magic/ep2/mirror-seal-ep2.md
+    id: mirror-seal-ep2
+    name: Mirror Seal Ep2
+    spell_level: ''
+  - class: ''
+    description: ''
+    ep: 3
+    file: magic/ep3/echo-inheritance.md
+    id: echo-inheritance
+    name: Echo Inheritance
+    spell_level: ''
+  - class: ''
+    description: ''
+    ep: 3
+    file: magic/ep3/echo-pulse-ep3.md
+    id: echo-pulse-ep3
+    name: Echo Pulse Ep3
+    spell_level: ''
+  - class: ''
+    description: ''
+    ep: 3
+    file: magic/ep3/fragment-echo-ep3.md
+    id: fragment-echo-ep3
+    name: Fragment Echo Ep3
+    spell_level: ''
+  - class: ''
+    description: ''
+    ep: 3
+    file: magic/ep3/magic-ep3-README.md
+    id: magic-ep3-README
+    name: Magic Ep3 Readme
+    spell_level: ''
+  - class: ''
+    description: ''
+    ep: 3
+    file: magic/ep3/memory-chain-ep3.md
+    id: memory-chain-ep3
+    name: Memory Chain Ep3
+    spell_level: ''
+  - class: ''
+    description: ''
+    ep: 3
+    file: magic/ep3/mirror-seal-ep3.md
+    id: mirror-seal-ep3
+    name: Mirror Seal Ep3
+    spell_level: ''
+  - class: ''
+    description: ''
+    ep: 3
+    file: magic/ep3/new-seal-theory-ep3.md
+    id: new-seal-theory-ep3
+    name: New Seal Theory Ep3
+    spell_level: ''
+  - class: ''
+    description: ''
+    ep: 3
+    file: magic/ep3/seal-resonance-ep3.md
+    id: seal-resonance-ep3
+    name: Seal Resonance Ep3
+    spell_level: ''
+  - class: ''
+    description: ''
+    ep: 3
+    file: magic/ep3/seal-resonance-fragment.md
+    id: seal-resonance-fragment
+    name: Seal Resonance Fragment
+    spell_level: ''
+  - class: ''
+    description: ''
+    ep: 3
+    file: magic/ep3/unknown-reaction-ep3.md
+    id: unknown-reaction-ep3
+    name: Unknown Reaction Ep3
+    spell_level: ''
+  - class: ''
+    description: ''
+    ep: 4
+    file: magic/ep4/echo-fusion.md
+    id: echo-fusion
+    name: Echo Fusion
+    spell_level: ''
+  - class: ''
+    description: ''
+    ep: 4
+    file: magic/ep4/inheritance-link.md
+    id: inheritance-link
+    name: Inheritance Link
+    spell_level: ''
+  - class: ''
+    description: ''
+    ep: 4
+    file: magic/ep4/memory-disruption-field.md
+    id: memory-disruption-field
+    name: Memory Disruption Field
+    spell_level: ''
+  - class: ''
+    description: ''
+    ep: 5
+    file: magic/ep5/cooking-bond.md
+    id: cooking-bond
+    name: Cooking Bond
+    spell_level: ''
+  - class: ''
+    description: ''
+    ep: 5
+    file: magic/ep5/melody-resonance.md
+    id: melody-resonance
+    name: Melody Resonance
+    spell_level: ''
+  - class: ''
+    description: ''
+    ep: 5
+    file: magic/ep5/passive-whispering.md
+    id: passive-whispering
+    name: Passive Whispering
+    spell_level: ''
+  - class: ''
+    description: ''
+    ep: 5
+    file: magic/ep5/echo-fusion.md
+    id: echo-fusion-ep5
+    name: Echo Fusion EP5
+    spell_level: ''
+  - class: ''
+    description: ''
+    ep: 5
+    file: magic/ep5/echo-field-scan.md
+    id: echo-field-scan
+    name: Echo Field Scan
+    spell_level: ''
+
 metadata:
   auto-parsable: true
   source-path: worldbuilding/magic/
