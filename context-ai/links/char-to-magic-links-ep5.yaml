@@ -1,0 +1,54 @@
+ep5:
+  klein-fendrix:
+    name: Klein Fendrix
+    spells:
+      - cooking-bond
+      - echo-fusion
+      - echo-field-scan
+
+  kanokwan-sarisa:
+    name: Kanokwan Sarisa
+    spells:
+      - cooking-bond
+      - melody-resonance
+      - passive-whispering
+      - echo-fusion
+
+  lyla-fortune:
+    name: Lyla Fortune
+    spells:
+      - cooking-bond
+
+  rudy-gearwright:
+    name: Rudy Gearwright
+    spells:
+      - cooking-bond
+      - echo-fusion
+      - echo-field-scan
+
+  isaac-nocturne:
+    name: Isaac Nocturne
+    spells:
+      - echo-field-scan
+
+  orphea-stringheart:
+    name: Orphea Stringheart
+    spells:
+      - melody-resonance
+
+  thuren-boundary:
+    name: Thuren of the Boundary
+    spells:
+      - melody-resonance
+      - passive-whispering
+      - echo-fusion
+
+  elrys-memory:
+    name: Elrys of the Memory
+    spells:
+      - passive-whispering
+
+  priest-of-resonance:
+    name: Priest of Resonance
+    spells:
+      - melody-resonance
