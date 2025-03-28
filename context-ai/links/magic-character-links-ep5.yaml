@@ -1,0 +1,38 @@
+ep5:
+  cooking-bond:
+    spell: Cooking Bond
+    characters:
+      - klein-fendrix
+      - kanokwan-sarisa
+      - lyla-fortune
+      - rudy-gearwright
+
+  melody-resonance:
+    spell: Melody Resonance
+    characters:
+      - kanokwan-sarisa
+      - orphea-stringheart
+      - thuren-boundary
+      - priest-of-resonance
+
+  passive-whispering:
+    spell: Passive Whispering
+    characters:
+      - kanokwan-sarisa
+      - elrys-memory
+      - thuren-boundary
+
+  echo-fusion:
+    spell: Echo Fusion
+    characters:
+      - klein-fendrix
+      - kanokwan-sarisa
+      - thuren-boundary
+      - rudy-gearwright
+
+  echo-field-scan:
+    spell: Echo Field Scan
+    characters:
+      - rudy-gearwright
+      - isaac-nocturne
+      - klein-fendrix
