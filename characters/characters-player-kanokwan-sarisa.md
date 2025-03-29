@@ -1,3 +1,12 @@
+---
+character_id: characters-player-kanokwan-sarisa
+team: silent-fortune
+role: main-protagonist
+is_player: false
+is_world-native: true
+last_updated: 2025-03-25
+---
+
 # กนกวรรณ สาริษา (Kanokwan Sarisa)
 
 ## ชื่อเล่นในทีม: "นก" (Nok)

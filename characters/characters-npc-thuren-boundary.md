@@ -1,3 +1,12 @@
+---
+character_id: characters-npc-thuren-boundary
+team: none
+role: main-protagonist
+is_player: false
+is_world-native: true
+last_updated: 2025-03-25
+---
+
 ## ชื่อเต็ม: ธูเรนแห่งขอบผนึก (Thuren of the Boundary)
 
 ### อายุ:  

@@ -1,5 +1,5 @@
 ---
-character_id: kline-fendrix
+character_id: characters-silent-fortune-kline-fendrix
 team: silent-fortune
 role: main-protagonist
 is_player: false
