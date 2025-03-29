@@ -138,7 +138,7 @@ context_index:
     version: 1
   character-magic-link:
     ep5: context-ai/links/magic-character-links-ep5.yaml
- character-to-magic-link:
+  character-to-magic-link:
     ep5: context-ai/links/char-to-magic-links-ep5.yaml
 metadata:
   auto-parsable: true
