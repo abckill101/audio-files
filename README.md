@@ -20,6 +20,92 @@
 
 ---
 
+# FARMING WAR – Structure Overview (โครงสร้างโปรเจกต์แบบละเอียด)
+
+```
+FARMING-WAR/
+├── .github/
+│   └── workflows/                 # GitHub Actions, CI/CD
+│
+├── characters/                   # ตัวละครทั้งหมด
+│   ├── silent-fortune/           # ทีมหลักของไคลน์
+│   ├── npc/                      # ตัวละครสนับสนุน, นักวิจัย, ผู้เฝ้าผนึก
+│   ├── enemy/                    # ฝ่ายศัตรู, บอส, ผู้ใช้เวทเงา
+│   └── player/                   # คนต่างโลก เช่น Kanokwan Sarisa
+│
+├── context-ai/                   # สำหรับ AI ใช้เชื่อมโยงและอ่านบริบท
+│   ├── characters-index.yaml
+│   ├── magic-index.yaml
+│   ├── echo-network-map.md
+│   └── timeline.md
+│
+├── items/                        # ระบบไอเท็มทั้งหมด
+│   ├── weapons/                  # อาวุธ เช่น seal-breaker-lance.md
+│   ├── accessories/              # เครื่องประดับ
+│   ├── materials/                # วัตถุดิบ เช่น fragment-dust.md
+│   └── schematics/               # แบบพิมพ์การคราฟต์
+│
+├── magic/                        # เวทมนตร์ทุกระบบ
+│   ├── ep1/                      # เวทเฉพาะตอน
+│   ├── epX/                      # เวทเฉพาะบทอื่น ๆ
+│   └── core/                     # เวทระบบหลัก เช่น echo-pulse.md
+│
+├── monsters/                     # ข้อมูลมอนสเตอร์ทั้งหมด
+│   ├── rank-d/
+│   ├── rank-c/
+│   ├── rank-b/
+│   ├── rank-a/
+│   └── rank-x/                   # มอนสเตอร์พิเศษระดับสุดท้าย
+│
+├── project/                      # ไฟล์จัดการโครงสร้าง นิยามภารกิจ Dev
+│   ├── dev-roadmap.md
+│   ├── structure-spec.md
+│   └── deployment-checklist.md
+│
+├── quests/                       # ภารกิจและเงื่อนไขต่าง ๆ
+│   ├── main-quests/
+│   └── side-quests/
+│
+├── story/                        # ตอนนิยายหลัก (แบ่งบท/พาร์ท)
+│   ├── ep1/
+│   │   ├── ep1-01/
+│   │   │   ├── ep1-01-1of5.md
+│   │   │   └── ep1-01-README.md
+│   │   └── ep1-05/
+│   ├── ep2/
+│   └── epX/
+│
+├── structure-dev/                # โครงต้นแบบ ระบบทดสอบ แนวคิดใหม่
+│   ├── magic-prototype.md
+│   ├── team-meta-structure.md
+│   └── expansion-plans.md
+│
+├── teams/                        # การจัดกลุ่มตัวละคร, พันธมิตร, ฝ่าย
+│   ├── silent-fortune-team.md
+│   └── others/
+│
+├── templates/                    # แม่แบบทุกหมวด
+│   ├── character-template.md
+│   ├── episode-metadata-template.md
+│   ├── item-template.md
+│   ├── location-template.md
+│   ├── magic-template.md
+│   └── quest-template.md
+│
+├── worldbuilding/                # ข้อมูลโลก Orthia
+│   ├── locations/
+│   │   ├── ep1/
+│   │   └── epX/
+│   ├── anomaly/
+│   ├── quests/
+│   ├── factions/
+│   └── economy/
+│       ├── global-trade-network.md
+│       ├── monster-drop-market.md
+│       └── orthia-currency.md
+
+---
+
 # PROJECT SUMMARY – FARMING WAR (TH/EN)
 
 > *เอกสารนี้สรุปข้อมูลโปรเจกต์นิยาย "Farming War" อย่างเป็นระบบ*  
